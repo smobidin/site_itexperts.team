@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>IT Experts Team</title>
     <link>http://10.1.1.206:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on IT Experts Team</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2026 18:39:59 +0300</lastBuildDate>
+    <language>ru</language>
+    <lastBuildDate>Fri, 07 Feb 2020 17:21:12 +0300</lastBuildDate>
     <atom:link href="http://10.1.1.206:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1</title>
-      <link>http://10.1.1.206:1313/posts/1/</link>
-      <pubDate>Thu, 12 Feb 2026 18:39:59 +0300</pubDate>
-      <guid>http://10.1.1.206:1313/posts/1/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;</description>
+      <title>Голосовой ассистент – помощник или конкурент?</title>
+      <link>http://10.1.1.206:1313/posts/ai_gravitel/</link>
+      <pubDate>Fri, 07 Feb 2020 17:21:12 +0300</pubDate>
+      <guid>http://10.1.1.206:1313/posts/ai_gravitel/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:1313/img/ai_gravitel.png&#34; alt=&#34;Голосовой ассистент – помощник или конкурент?&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;В &lt;a href=&#34;https://www.gravitel.ru/&#34;&gt;Гравител&lt;/a&gt; силами разработчиков компании ведем работу по созданию сразу двух систем: Голосовой ассистент и Речевая аналитика. Проект Голосового ассистента, сайт проекта &lt;a href=&#34;https://aicall.ru/&#34;&gt;https://aicall.ru&lt;/a&gt;, начался весной 2020, и уже в октябре 2020 начал обслуживать первого коммерческого заказчика.&lt;br&gt;&#xA;Периодически в диалогах с заказчиками сталкиваемся с некой формой боязни роботов. Кто-то считает, что людей придется сокращать. Кто-то боится попасть под это сокращение.&lt;br&gt;&#xA;Решили порассуждать на тему конкуренции человека и робота в области телефонии. Подготовил эту статью.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
