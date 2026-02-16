@@ -2,46 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IT Experts Team</title>
-    <link>http://10.1.1.206:1313/</link>
+    <link>http://10.1.1.206:44019/</link>
     <description>Recent content on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Wed, 10 Jan 2024 14:07:35 +0300</lastBuildDate>
-    <atom:link href="http://10.1.1.206:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://10.1.1.206:44019/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Про управление проектами - не всерьез.</title>
+      <link>http://10.1.1.206:44019/jokes/j5/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://10.1.1.206:44019/jokes/j5/</guid>
+      <description>&lt;p&gt;Итак, мы, как Заказчик:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. решили строить новый дом&#xA;2. понимаем, что будет кирпичный&#xA;3. понимаем, что не понимаем точную планировку дома&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Прораб говорит:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. цены на кирпич вырастут в следующем квартала в два раза&#xA;2. на складе поставщика есть кирпичи&#xA;3. купите пока кирпичи, пока планировку дома думаете&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Заказчик:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. хз, не буду тратить деньги, пока планировку не придумаю&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Заказчик через квартал:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;1. Денег на кирпичи не хватает, сильно подорожали&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     <item>
       <title>Windows Subsystem for Linux (WSL) как инструмент для прототипирования и проверки гипотез</title>
-      <link>http://10.1.1.206:1313/posts/wsl_prototype/</link>
+      <link>http://10.1.1.206:44019/posts/wsl_prototype/</link>
       <pubDate>Wed, 10 Jan 2024 14:07:35 +0300</pubDate>
-      <guid>http://10.1.1.206:1313/posts/wsl_prototype/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:1313/img/fb_n11.jpg&#34; alt=&#34;Prototype&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Выбирая пути развития программного продукта передо мной зачастую возникает задача проверить гипотезу.&lt;/p&gt;&#xA;&lt;p&gt;А гипотезу я предпочитаю проверять максимально простым и быстрым способом.&lt;/p&gt;&#xA;&lt;p&gt;Не планирую описывать команды и отдельные шаги. Опишу саму задачу и подход к решению задачи.&lt;/p&gt;&#xA;&lt;h3 id=&#34;задача&#34;&gt;Задача&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Запустить платформу речевой аналитики&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Речевая Аналитика в телефонии - это полнотекстовый анализ телефонных разговоров. Состоит, укрупненно, из нескольких частей:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Распознавание речи в текст&lt;/li&gt;&#xA;&lt;li&gt;Анализ текста (аналитика)&lt;/li&gt;&#xA;&lt;li&gt;Отчетность и принятие решения&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;гипотеза&#34;&gt;Гипотеза&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Оценив предложения на рынке, решил рассмотреть возможность реализовать платформу самим, внутри компании.&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>http://10.1.1.206:44019/posts/wsl_prototype/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:44019/img/fb_n11.jpg&#34; alt=&#34;Prototype&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Выбирая пути развития программного продукта передо мной зачастую возникает задача проверить гипотезу.&lt;/p&gt;&#xA;&lt;p&gt;А гипотезу я предпочитаю проверять максимально простым и быстрым способом.&lt;/p&gt;&#xA;&lt;p&gt;Не планирую описывать команды и отдельные шаги. Опишу саму задачу и подход к решению задачи.&lt;/p&gt;&#xA;&lt;h3 id=&#34;задача&#34;&gt;Задача&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Запустить платформу речевой аналитики&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Речевая Аналитика в телефонии - это полнотекстовый анализ телефонных разговоров. Состоит, укрупненно, из нескольких частей:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Распознавание речи в текст&lt;/li&gt;&#xA;&lt;li&gt;Анализ текста (аналитика)&lt;/li&gt;&#xA;&lt;li&gt;Отчетность и принятие решения&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;гипотеза&#34;&gt;Гипотеза&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Оценив предложения на рынке, решил рассмотреть возможность реализовать платформу самим, внутри компании.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ресурсное планирование в большом проекте - не всерьез.</title>
+      <link>http://10.1.1.206:44019/jokes/j4/</link>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://10.1.1.206:44019/jokes/j4/</guid>
+      <description>&lt;p&gt;Шутка:&#xA;Предстоит угадать мелодию по ограниченному числу нот. Знаем такую игру ) &amp;ldquo;Угадай мелодию&amp;rdquo;.&#xA;Мелодию берется угадывать Ричи Блэкмор.&#xA;Ему помогают, дают прочитать описание мелодии, написанное другим музыкантом, чтобы упростить задачу. Описание мелодии не содержит конкретики, в нем описано, что мелодия популярная, веселая, известна по всему миру и т.п. Сразу сообщают, что мелодия непростая и что можно выбрать для начала сразу хоть 100 нот!&#xA;Ричи в восторге и уже потирает ручки - он же профессионал, он угадает мелодию со 100 нот!&#xA;Затаили дыхание. Вот-вот зазвучит первая нота, Ричи напрягся, вслушивается&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>VS Code и GitHub - как универсальная записная книжка</title>
-      <link>http://10.1.1.206:1313/posts/vscode_github_prototype/</link>
+      <link>http://10.1.1.206:44019/posts/vscode_github_prototype/</link>
       <pubDate>Thu, 08 Sep 2022 14:07:35 +0300</pubDate>
-      <guid>http://10.1.1.206:1313/posts/vscode_github_prototype/</guid>
+      <guid>http://10.1.1.206:44019/posts/vscode_github_prototype/</guid>
       <description>&lt;p&gt;Простой лайвхак, как использовать Visual Studio Code (VS Code) в качестве редактора заметок на множестве рабочих мест;)&lt;/p&gt;&#xA;&lt;p&gt;Очень просто.&lt;/p&gt;&#xA;&lt;p&gt;Делаем себе личный закрытый репозиторий на GitHub и ведем в нем свои записи в любом удобном виде.&lt;br&gt;&#xA;Хоть PlantUML, хоть текст. Очень удобно вести заметки в Markdown. А дальше - git pull, git push.&lt;/p&gt;&#xA;&lt;p&gt;Записная книжка для работы с коллегами или друзьями? Делаем репозиторий в GitHub и приглашаем к нему коллег или друзей;)&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Когда не хватает ресурсов и приходится резать скоуп - не всерьез.</title>
+      <link>http://10.1.1.206:44019/jokes/j3/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://10.1.1.206:44019/jokes/j3/</guid>
+      <description>&lt;p&gt;Выглядит так)&lt;/p&gt;&#xA;&lt;p&gt;Ты заказчик, ты хочешь, чтобы я построил тебе дом, чтобы у дома на втором этаже был балкон, ты хочешь сидеть на балконе и пить вино.&#xA;У тебя есть стул, бокал, вино. Но тебе не нравится вид. Ты хочешь именно на балконе сидеть.&lt;/p&gt;&#xA;&lt;p&gt;Я прораб. Я знаю как и что. Как построить дом с балконом.&lt;/p&gt;&#xA;&lt;p&gt;Я говорю тебе, что мне нужны строители и материалы.&lt;/p&gt;&#xA;&lt;p&gt;А ты меня просишь доказать, что для строительства дома нужны строители и материалы.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Развилка: разрабатывать свою платформу или собрать ее из набора вендорских решений. Не всерьез.</title>
+      <link>http://10.1.1.206:44019/jokes/j2/</link>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://10.1.1.206:44019/jokes/j2/</guid>
+      <description>&lt;p&gt;Заказчик хочет пельмешки. Мы, вместо того, чтобы сделать свои и накормить Заказчика вкуснейшими пельменями собственной рецептуры делаем так:&#xA;фарш берем у одного поставщика&#xA;тесто - у другого&#xA;воду нам привозит третий поставщик, якобы она &amp;ldquo;сверхчистая&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;На выходе оказывается, что мы в ослиной моче сварили крысиный фарш в тесте из муки, пораженной мошкой.&lt;/p&gt;&#xA;&lt;p&gt;Такие вот пельмешки.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>О создании продуктов - не всерьез</title>
+      <link>http://10.1.1.206:44019/jokes/j1/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://10.1.1.206:44019/jokes/j1/</guid>
+      <description>&lt;p&gt;Хороший продукт делается без требований и тестирования! Ибо!&lt;/p&gt;&#xA;&lt;p&gt;Все и так понятно и сделано хорошо!&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Как устроена платформа автоматизации процессов разработки MLOps Platform #CloudMTS</title>
-      <link>http://10.1.1.206:1313/posts/mts_mlops/</link>
+      <link>http://10.1.1.206:44019/posts/mts_mlops/</link>
       <pubDate>Fri, 17 Dec 2021 13:12:35 +0300</pubDate>
-      <guid>http://10.1.1.206:1313/posts/mts_mlops/</guid>
-      <description>&lt;p&gt;В прошлой &lt;a href=&#34;http://10.1.1.206:1313/posts/mts_grom_supercloud/&#34;&gt;статье&lt;/a&gt; я рассказывал, как мы строим сервисы для разработчиков ИИ и, в частности, коснулся истории появления нашей &lt;a href=&#34;https://cloud.mts.ru/services/mlops-platform/?utm_source=habr.com&amp;amp;utm_medium=owned_media_mlops_platform&amp;amp;utm_content=article&amp;amp;utm_term=kak_ustroena_mlops_platform_cloudmts&#34;&gt;MLOps Platform&lt;/a&gt;. Сегодня мне хотелось бы показать ее изнутри — поделиться возможностями и показать инструменты под капотом.&lt;/p&gt;&#xA;&lt;p&gt;Надеюсь, получилось достаточно подробно. А для всего остального есть комментарии: не стесняйтесь задавать вопросы, я обязательно отвечу всем интересующимся. Поехали!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:1313/img/mts_mlops_1.png&#34; alt=&#34;CloudMTS&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Итак, когда мы построили наш &lt;a href=&#34;https://cloud.mts.ru/services/gpu-supercloud/?utm_source=habr.com&amp;amp;utm_medium=owned_media_gpu_supercloud&amp;amp;utm_content=article&amp;amp;utm_term=kak_ustroena_mlops_platform_cloudmts&#34;&gt;GPU SuperCloud&lt;/a&gt;, мы поняли, что у некоторых заказчиков есть спрос на услугу «здесь и сейчас». У кого-то горят сроки реализации проекта. Другим не хватает «инженерных» рук. Поэтому мы решили сделать инструмент, который позволял бы прийти «на все готовое». И построили MLOps Platform.&lt;/p&gt;</description>
+      <guid>http://10.1.1.206:44019/posts/mts_mlops/</guid>
+      <description>&lt;p&gt;В прошлой &lt;a href=&#34;http://10.1.1.206:44019/posts/mts_grom_supercloud/&#34;&gt;статье&lt;/a&gt; я рассказывал, как мы строим сервисы для разработчиков ИИ и, в частности, коснулся истории появления нашей &lt;a href=&#34;https://cloud.mts.ru/services/mlops-platform/?utm_source=habr.com&amp;amp;utm_medium=owned_media_mlops_platform&amp;amp;utm_content=article&amp;amp;utm_term=kak_ustroena_mlops_platform_cloudmts&#34;&gt;MLOps Platform&lt;/a&gt;. Сегодня мне хотелось бы показать ее изнутри — поделиться возможностями и показать инструменты под капотом.&lt;/p&gt;&#xA;&lt;p&gt;Надеюсь, получилось достаточно подробно. А для всего остального есть комментарии: не стесняйтесь задавать вопросы, я обязательно отвечу всем интересующимся. Поехали!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:44019/img/mts_mlops_1.png&#34; alt=&#34;CloudMTS&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Итак, когда мы построили наш &lt;a href=&#34;https://cloud.mts.ru/services/gpu-supercloud/?utm_source=habr.com&amp;amp;utm_medium=owned_media_gpu_supercloud&amp;amp;utm_content=article&amp;amp;utm_term=kak_ustroena_mlops_platform_cloudmts&#34;&gt;GPU SuperCloud&lt;/a&gt;, мы поняли, что у некоторых заказчиков есть спрос на услугу «здесь и сейчас». У кого-то горят сроки реализации проекта. Другим не хватает «инженерных» рук. Поэтому мы решили сделать инструмент, который позволял бы прийти «на все готовое». И построили MLOps Platform.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform</title>
-      <link>http://10.1.1.206:1313/posts/mts_grom_supercloud/</link>
+      <link>http://10.1.1.206:44019/posts/mts_grom_supercloud/</link>
       <pubDate>Wed, 15 Dec 2021 11:18:35 +0300</pubDate>
-      <guid>http://10.1.1.206:1313/posts/mts_grom_supercloud/</guid>
+      <guid>http://10.1.1.206:44019/posts/mts_grom_supercloud/</guid>
       <description>&lt;p&gt;Роботы вошли в нашу жизнь. Мы пользуемся ими на повседневной основе, подчас даже не замечая этого. ИИ звонит нам и отвечает на наши звонки. Сейчас даже проезд в метро можно оплатить лицом.&lt;/p&gt;&#xA;&lt;p&gt;Динамичный рост рынка технологий искусственного интеллекта закономерно породил спрос на инфраструктуру для их разработки. Особенность построения моделей искусственного интеллекта состоит в том, что для их обучения требуются очень мощные и производительные решения. Под катом мы поговорим о том, как начался наш путь в сервисы для ИИ и к чему мы пришли сейчас. Коснемся и исторических моментов, и планов на ближайшее будущее.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Голосовой ассистент – помощник или конкурент?</title>
-      <link>http://10.1.1.206:1313/posts/ai_gravitel/</link>
+      <link>http://10.1.1.206:44019/posts/ai_gravitel/</link>
       <pubDate>Thu, 14 Jan 2021 17:36:12 +0300</pubDate>
-      <guid>http://10.1.1.206:1313/posts/ai_gravitel/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:1313/img/ai_gravitel.png&#34; alt=&#34;Голосовой ассистент – помощник или конкурент?&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;В &lt;a href=&#34;https://www.gravitel.ru/&#34;&gt;Гравител&lt;/a&gt; силами разработчиков компании ведем работу по созданию сразу двух систем: Голосовой ассистент и Речевая аналитика. Проект Голосового ассистента, сайт проекта &lt;a href=&#34;https://aicall.ru/&#34;&gt;https://aicall.ru&lt;/a&gt;, начался весной 2020, и уже в октябре 2020 начал обслуживать первого коммерческого заказчика.&lt;br&gt;&#xA;Периодически в диалогах с заказчиками сталкиваемся с некой формой боязни роботов. Кто-то считает, что людей придется сокращать. Кто-то боится попасть под это сокращение.&lt;br&gt;&#xA;Решили порассуждать на тему конкуренции человека и робота в области телефонии. Подготовил эту статью.&lt;/p&gt;</description>
+      <guid>http://10.1.1.206:44019/posts/ai_gravitel/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:44019/img/ai_gravitel.png&#34; alt=&#34;Голосовой ассистент – помощник или конкурент?&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;В &lt;a href=&#34;https://www.gravitel.ru/&#34;&gt;Гравител&lt;/a&gt; силами разработчиков компании ведем работу по созданию сразу двух систем: Голосовой ассистент и Речевая аналитика. Проект Голосового ассистента, сайт проекта &lt;a href=&#34;https://aicall.ru/&#34;&gt;https://aicall.ru&lt;/a&gt;, начался весной 2020, и уже в октябре 2020 начал обслуживать первого коммерческого заказчика.&lt;br&gt;&#xA;Периодически в диалогах с заказчиками сталкиваемся с некой формой боязни роботов. Кто-то считает, что людей придется сокращать. Кто-то боится попасть под это сокращение.&lt;br&gt;&#xA;Решили порассуждать на тему конкуренции человека и робота в области телефонии. Подготовил эту статью.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

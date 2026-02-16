@@ -56,8 +56,8 @@ theme = 'mainroad'
 [Params.widgets.social]
   cached = false # activate cache if true
   # Enable parts of social widget
-  #linkedin = "username"
-  telegram = "@sobidin"
+  linkedin = "sobidin"
+  telegram = "sobidin"
   github = "smobidin"
   #email = "stas@itexperts.team"
   phone = "+7 (926) 530 46 87"
