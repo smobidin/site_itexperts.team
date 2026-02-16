@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=44019&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform - IT Experts Team</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:url" content="http://10.1.1.206:44019/posts/mts_grom_supercloud/">
+  <meta property="og:site_name" content="IT Experts Team">
+  <meta property="og:title" content="Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform">
+  <meta property="og:description" content="Роботы вошли в нашу жизнь. Мы пользуемся ими на повседневной основе, подчас даже не замечая этого. ИИ звонит нам и отвечает на наши звонки. Сейчас даже проезд в метро можно оплатить лицом.
+Динамичный рост рынка технологий искусственного интеллекта закономерно породил спрос на инфраструктуру для их разработки. Особенность построения моделей искусственного интеллекта состоит в том, что для их обучения требуются очень мощные и производительные решения. Под катом мы поговорим о том, как начался наш путь в сервисы для ИИ и к чему мы пришли сейчас. Коснемся и исторических моментов, и планов на ближайшее будущее.">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-12-15T11:18:35+03:00">
+    <meta property="article:modified_time" content="2021-12-15T11:18:35+03:00">
+    <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="HPC">
+    <meta property="article:tag" content="Cloud">
+    <meta property="article:tag" content="MLOps">
+
+		
+  <meta itemprop="name" content="Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform">
+  <meta itemprop="description" content="Роботы вошли в нашу жизнь. Мы пользуемся ими на повседневной основе, подчас даже не замечая этого. ИИ звонит нам и отвечает на наши звонки. Сейчас даже проезд в метро можно оплатить лицом.
+Динамичный рост рынка технологий искусственного интеллекта закономерно породил спрос на инфраструктуру для их разработки. Особенность построения моделей искусственного интеллекта состоит в том, что для их обучения требуются очень мощные и производительные решения. Под катом мы поговорим о том, как начался наш путь в сервисы для ИИ и к чему мы пришли сейчас. Коснемся и исторических моментов, и планов на ближайшее будущее.">
+  <meta itemprop="datePublished" content="2021-12-15T11:18:35+03:00">
+  <meta itemprop="dateModified" content="2021-12-15T11:18:35+03:00">
+  <meta itemprop="wordCount" content="1230">
+  <meta itemprop="keywords" content="AI,HPC,Cloud,MLOps">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="ЭКСПЕРТЫ ИТ" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo_team.png">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">ЭКСПЕРТЫ ИТ</div>
+					<div class="logo__tagline">МЫ РОЖДАЕМ ИДЕИ, РАЗВИВАЕМ ПРОЕКТЫ И РЕШАЕМ ЗАДАЧИ</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Меню</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item menu__item--active">
+			<a class="menu__link" href="/posts/">
+				
+				<span class="menu__text">Статьи</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/jokes/">
+				
+				<span class="menu__text">Шутки и Анекдоты</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2021-12-15T11:18:35&#43;03:00">2021-12-15</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE/" rel="category">Облако</a>, <a class="meta__link" href="/categories/%D0%B8%D1%81%D0%BA%D1%83%D1%81c%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82/" rel="category">Искусcтвенный Интеллект</a>
+	</span>
+</div></div>
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">Содержимое страницы</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#запуск-gpu-supercloud">Запуск GPU SuperCloud</a>
+      <ul>
+        <li><a href="#плюсы-и-минусы-решения">Плюсы и минусы решения</a></li>
+      </ul>
+    </li>
+    <li><a href="#суперкомпьютер-grom">Суперкомпьютер GROM</a></li>
+    <li><a href="#mlops-platform">MLOps Platform</a></li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<p>Роботы вошли в нашу жизнь. Мы пользуемся ими на повседневной основе, подчас даже не замечая этого. ИИ звонит нам и отвечает на наши звонки. Сейчас даже проезд в метро можно оплатить лицом.</p>
+<p>Динамичный рост рынка технологий искусственного интеллекта закономерно породил спрос на инфраструктуру для их разработки. Особенность построения моделей искусственного интеллекта состоит в том, что для их обучения требуются очень мощные и производительные решения. Под катом мы поговорим о том, как начался наш путь в сервисы для ИИ и к чему мы пришли сейчас. Коснемся и исторических моментов, и планов на ближайшее будущее.</p>
+<p><img src="/img/mts_1.jpeg" alt="v100"></p>
+<h2 id="запуск-gpu-supercloud">Запуск GPU SuperCloud</h2>
+<p>У нас в #CloudMTS есть сервис <a href="https://cloud.mts.ru/services/gpu-supercloud/?utm_source=habr.com&amp;utm_medium=owned_media&amp;utm_campaign=gpu_supercloud&amp;utm_content=article&amp;utm_term=stroim_servisi_dlya_razrabotchikov_ai">GPU SuperCloud</a>. Это комплексное IaaS-решение, которое главным образом служит для обучения моделей искусственного интеллекта и родственных задач. Разработчики получают готовую инфраструктуру, на которой можно развернуть стек необходимых инструментов и приступить к работе. Кроме того, ближайшее время мы планируем «эволюционировать» и запустить SuperCloud в формате PaaS. Но об этом чуть ниже.</p>
+<p>Сегодня я хочу поговорить не о технологиях, лежащих в основе SuperCloud, и даже не о самом продукте. Гораздо интереснее будет рассказ об истории его создания: здесь переплелись философия #CloudMTS, актуальные требования рынка и плавное приближение человечества к технологической сингулярности. Но обо всем по порядку.</p>
+<p>Идею построить такой сервис мы начали реализовывать еще 2018 году. Его созданию, как я уже писал выше, способствовали бурный рост и развитие различных систем искусственного интеллекта и машинного обучения. По мере того, как стали появляться удобные фреймворки, а технологии становились всё более зрелыми и доступными, число сервисов, построенных на базе ИИ, неуклонно росло. Это и роботизированные голосовые помощники, и программы распознавания изображений/видео, и системы предиктивного анализа и скоринга данных. Всех не перечесть.</p>
+<p>Разработка моделей ИИ носит итерационно-инкрементный характер, то есть подразумевает многократный процесс тренировки и тестирования модели. Это позволяет постепенно повышать результативность модели, пока она не выйдет на требуемый уровень. GPU позволяют тренировать модели гораздо быстрее, нежели на CPU. А самые распространенные фреймворки (например, TensorFlow или PyTorch) глубоко оптимизированы для ускорения работы на GPU. Дома или в офисе качественную и мощную систему не построить: необходимы опыт, колоссальные материальные вложения и специализированное оборудование.</p>
+<p>Индустрия ИИ начала интенсивно развиваться в прошлом десятилетии, и вот уже в 2013-15 гг. на рынке стали активно появляться сервисы IaaS и PaaS, предназначенные для решения задач искусственного интеллекта и машинного обучения. Лидером GPU решений и инфраструктуры для обучения моделей является компания NVIDIA. Де-факто NVIDIA на сегодняшний день предоставляет ключевые инфраструктурные технологии для построения систем машинного обучения и искусственного интеллекта.</p>
+<p>Главным преимуществом сервисной модели является, как это ни банально, оптимизация затрат. Стоимость видеокарт, стоимость серверов, их обслуживание – весьма существенны, если не сказать больше. Далеко не каждая компания, не говоря уже о независимых разработчиках, может позволить себе покупку сервера с графическими адаптерами. Так, всего одна карта NVIDIA V100 стоит порядка 1 000 000 рублей. Наш сервис GPU SuperCloud построен на базе серверов с 8 такими картами. Расскажем о его строительстве с самого начала.<br>
+<img src="/img/mts_2.jpeg" alt="Nvidia"></p>
+<p>Зимой 2018 года мы приняли решение закупить узлы DGX-1, это самая первая модель в линейке NVIDIA. В 2019 году мы запустили сервис IaaS. Искушенный читатель может сразу задать вопрос: как на DGX-1, не поддерживающих виртуализацию, удалось разделить ресурсы и организовать полноценный сервис для клиентов. Ответ простой: никак. Нам требовалось всего лишь протестировать гипотезу и приобрести новый опыт, поэтому цель построить продукт «на продажу» мы оставили на более поздний период. Тем более, найти покупателя даже на один узел — задачка не из легких.</p>
+<p><img src="/img/mts_3.jpeg" alt="DGX"></p>
+<p>После череды успешных тестов мы развернули сервис для внутреннего заказчика — 2-х компаний внутри МТС. В частности — «Центр Искусственного Интеллекта МТС». А для строительства услуги мы приняли решение использовать стандартные серверы Huawei с видеокартами Nvidia V100: установили на них гипервизор от VMware и раздробили мощности на несколько виртуальных машин.</p>
+<p><img src="/img/mts_4.jpeg" alt="Huawei"><br>
+<em>Huawei G5500</em></p>
+<p>Благодаря технологиям VMware и NDIVIA GPU Manager мы получили возможность делить ресурсы одного сервера в широком диапазоне. К примеру, в одном сервере 8 графических адаптеров. Мы можем поделить его мощности вплоть до ⅛ адаптера. Собственно, так и появился на свет наш сервис GPU SuperCloud в формате IaaS.</p>
+<p>Поделимся с вами внутренним наблюдением: наибольшей популярностью у заказчиков пользуются «половинные», «целые» и 1+1 адаптеры. В течение 2020 г. спрос на сервис вырос буквально вдвое. И да, мы вдвое расширили инфраструктуру в начале 2021 г. Сейчас наши серверы утилизированы на 85% полностью, в скором времени мы начнем закупку дополнительных мощностей.</p>
+<h3 id="плюсы-и-минусы-решения">Плюсы и минусы решения</h3>
+<p>Согласитесь, было бы нечестно рассказать о своем видении услуги, умолчав о тех ее сторонах, которые нам не нравятся, которые мы хотим улучшить и доработать.</p>
+<p>Существенный минус для клиентов — сервис предоставляется в виде «голого» IaaS. С одной стороны, разработчик получает полную свободу действий. С другой — даже при самом стандартном сценарии он вынужден разворачивать фреймворки, настраивать CI/CD и осуществлять первичную конфигурацию системы с нуля. При этом услуга активна, и приходится за нее платить еще до начала полноценного использования. Этот момент нивелируется стоимостью: 2-3 недели, в течение которых услуга «простаивает» для бизнеса, отбиваются в течение пары месяцев.</p>
+<p>Что касается модели оплаты — на данный момент у нас отсутствует Pay-as-You-Go. В будущем планируем внедрить эту модель. Однако, с другой стороны, нам удалось сбалансировать месячную стоимость аренды и выдать самую низкую цену на рынке.</p>
+<h2 id="суперкомпьютер-grom">Суперкомпьютер GROM</h2>
+<p>GPU SuperCloud фактически стал опорной точкой для создания суперкомпьютера GROM — третьего по вычислительной мощности на территории Российской федерации.</p>
+<p>Он построен на базе NVIDIA DGX A100 и нацелен исключительно на выполнение задач машинного обучения и ИИ. Производительность GROM достигает <a href="https://www.top500.org/system/179955/">2,26 петафлопс</a>. На нем развернут специализированный программный стек, который позволяет реализовать функциональность High Performance Computing (HPC).</p>
+<p>Кратко о GROM:</p>
+<ul>
+<li>Суперкомпьютер позволяет массово запускать множество параллельных вычислений сразу на всех узлах (серверах). Решение реализовано на базе программно-аппаратной платформы NVIDIA DGX A100 с графическими процессорами NVIDIA А100 с суммарной GPU RAM 320 Гб в каждом узле.</li>
+<li>Вычислительные узлы объединены высокоскоростной сетью Infiniband. Это коммутируемая компьютерная сеть, которая используется в высокопроизводительных вычислениях и имеет большую пропускную способность и низкие задержки.</li>
+<li>Вычислительный кластер MTS GROM оснащен СХД NetApp на базе технологии NVMe, что обеспечивает сверхбыстрое взаимодействие вычислительных узлов с системой хранения данных для сокращения времени обучения AI-моделей.</li>
+<li>На SuperPOD запускаются массированные задачи обучения: есть возможность выполнять их и на отдельных узлах, и одновременно на всех 20.</li>
+<li>На текущий момент компьютером пользуются внутренние заказчики: одновременно разрабатываются проекты, связанные с распознаванием и синтезом речи, компьютерным зрением и определением графических образов, построением предиктивных моделей и т.п. Над каждой моделью работает отдельная группа разработчиков.</li>
+</ul>
+<p>Также мы разрабатываем технологию, которая позволит нам предоставить ресурсы суперкомпьютера внешним заказчикам.</p>
+<p>Видя широкий спрос на GPU SuperCloud, мы приняли решение создать и выпустить новый, расширенный продукт. Это высокоуровневый сервис, который позволит заказчикам, работающим с технологиями ИИ, быстрее приступать к проектам, тратить меньше времени на настройку среды и подготовку. Это система класса MLOps.</p>
+<h2 id="mlops-platform">MLOps Platform</h2>
+<p>У наших заказчиков есть спрос на продукт «здесь и сейчас» — чтобы можно было заказать услугу, и сразу же начать пользоваться, не расходуя средства на первоначальную настройку. Мы прикинули, может ли «эволюционировать» наш GPU SuperCloud до чего-то более высокоуровневого, и построили платформу MLOps Platform.</p>
+<p>Внутри платформы уже есть все, что нужно разработчику: инфраструктура, набор операционных систем, виртуализация приложений (в нашем случае средствами Kubernetes), инструменты автоматизации процесса разработки. Фреймворки для разработки — Tensorflow, PyTorch, интегрированный Jupyter Notebook &amp; JupyterLab и т.п.</p>
+<p><img src="/img/mts_6.png" alt="MLOps"></p>
+<p>Все инструменты уже преднастроены, все процессы — автоматизированы. Разработчику понадобится только «занести» код, данные и начать работу.</p>
+<p>А о том, как устроена наша платформа MLOps Platform изнутри и какие ценности приносит мы расскажем уже в следующей статье. А пока приглашаем вас на бета-тест платформы MLOps Platform — регистрируйтесь <a href="https://app.ml.cloud.mts.ru/?utm_source=habr.com&amp;utm_medium=owned_media&amp;utm_campaign=gpu_supercloud&amp;utm_content=article&amp;utm_term=stroim_servisi_dlya_razrabotchikov_ai">по ссылке</a>.</p>
+<p><a href="https://habr.com/ru/company/cloud_mts/blog/582374/">Полный текст статьи в блоге CloudMTS на Хабр</a></p>
+<p>Источник: Блог <a href="https://habr.com/ru/company/cloud_mts/profile/">#CloudMTS</a></p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M4 0h8s2 0 4 2l15 15s2 2 0 4L21 31s-2 2-4 0L2 16s-2-2-2-4V3s0-3 4-3m3 10a3 3 0 0 0 0-6 3 3 0 0 0 0 6"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/ai/" rel="tag">AI</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/hpc/" rel="tag">HPC</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/cloud/" rel="tag">Cloud</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/mlops/" rel="tag">MLOps</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/ai_gravitel/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Назад</span>
+			<p class="pager__title">Голосовой ассистент – помощник или конкурент?</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/mts_mlops/" rel="next">
+			<span class="pager__subtitle">Вперед&thinsp;»</span>
+			<p class="pager__title">Как устроена платформа автоматизации процессов разработки MLOps Platform #CloudMTS</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<input class="widget-search__field" type="search" placeholder="Поиск…" value="" name="q" aria-label="Поиск…">
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://10.1.1.206:44019/">
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Недавние публикации</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/mts_mlops/">Как устроена платформа автоматизации процессов разработки MLOps Platform #CloudMTS</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/mts_grom_supercloud/">Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/ai_gravitel/">Голосовой ассистент – помощник или конкурент?</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Категории</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%D0%B8%D1%81%D0%BA%D1%83%D1%81c%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82/">Искусcтвенный Интеллект</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">3</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE/">Облако</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">2</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/">Разработка</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">1</span>
+				</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Теги</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/ai/" title="AI">AI (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/asr/" title="ASR">ASR (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/cloud/" title="Cloud">Cloud (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hpc/" title="HPC">HPC (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/mlops/" title="MLOps">MLOps (2)</a>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Социальные сети</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Telegram" rel="noopener noreferrer" href="https://t.me/@sobidin" target="_blank">
+				<svg class="widget-social__link-icon icon icon-telegram" width="24" height="24" viewBox="0 0 132 110"><path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52"/><path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12"/><path fill="#fff" d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1"/></svg>
+				<span>Telegram</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/smobidin" target="_blank">
+				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+
+		
+	</div>
+</div>
+
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2026 IT Experts Team.
+			<span class="footer__copyright-credits">Сгенерировано с использованием <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> и темы <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
