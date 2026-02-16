@@ -2,88 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://10.1.1.206:46733/jokes/</loc>
+    <loc>http://10.1.1.206:44019/jokes/</loc>
     <lastmod>2026-02-13T17:11:34+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/contact/</loc>
+    <loc>http://10.1.1.206:44019/contact/</loc>
     <lastmod>2026-02-13T16:56:01+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/posts/</loc>
+    <loc>http://10.1.1.206:44019/posts/</loc>
     <lastmod>2026-02-13T16:56:01+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/</loc>
+    <loc>http://10.1.1.206:44019/</loc>
     <lastmod>2026-02-13T16:55:44+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/categories/</loc>
+    <loc>http://10.1.1.206:44019/tags/ai/</loc>
+    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.206:44019/categories/</loc>
+    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.206:44019/posts/gpu_ai_infra_trends_2030/</loc>
+    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.206:44019/tags/hw/</loc>
+    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.206:44019/tags/</loc>
+    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.206:44019/categories/%D0%B8%D1%81%D0%BA%D1%83%D1%81c%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82/</loc>
+    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://10.1.1.206:44019/tags/joke/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/tags/joke/</loc>
+    <loc>http://10.1.1.206:44019/jokes/j5/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/tags/</loc>
+    <loc>http://10.1.1.206:44019/categories/%D1%88%D1%83%D1%82%D0%BA%D0%B0/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/jokes/j5/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://10.1.1.206:46733/categories/%D1%88%D1%83%D1%82%D0%BA%D0%B0/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://10.1.1.206:46733/tags/ai/</loc>
+    <loc>http://10.1.1.206:44019/posts/wsl_prototype/</loc>
     <lastmod>2024-01-10T14:07:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/posts/wsl_prototype/</loc>
+    <loc>http://10.1.1.206:44019/tags/wsl/</loc>
     <lastmod>2024-01-10T14:07:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/tags/wsl/</loc>
+    <loc>http://10.1.1.206:44019/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</loc>
     <lastmod>2024-01-10T14:07:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/categories/%D0%B8%D1%81%D0%BA%D1%83%D1%81c%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82/</loc>
-    <lastmod>2024-01-10T14:07:35+03:00</lastmod>
-  </url><url>
-    <loc>http://10.1.1.206:46733/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/</loc>
-    <lastmod>2024-01-10T14:07:35+03:00</lastmod>
-  </url><url>
-    <loc>http://10.1.1.206:46733/jokes/j4/</loc>
+    <loc>http://10.1.1.206:44019/jokes/j4/</loc>
     <lastmod>2022-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/posts/vscode_github_prototype/</loc>
+    <loc>http://10.1.1.206:44019/posts/vscode_github_prototype/</loc>
     <lastmod>2022-09-08T14:07:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/tags/work/</loc>
+    <loc>http://10.1.1.206:44019/tags/work/</loc>
     <lastmod>2022-09-08T14:07:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/jokes/j3/</loc>
+    <loc>http://10.1.1.206:44019/jokes/j3/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/jokes/j2/</loc>
+    <loc>http://10.1.1.206:44019/jokes/j2/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/jokes/j1/</loc>
+    <loc>http://10.1.1.206:44019/jokes/j1/</loc>
     <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/tags/cloud/</loc>
+    <loc>http://10.1.1.206:44019/tags/cloud/</loc>
     <lastmod>2021-12-17T13:12:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/tags/mlops/</loc>
+    <loc>http://10.1.1.206:44019/tags/mlops/</loc>
     <lastmod>2021-12-17T13:12:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/posts/mts_mlops/</loc>
+    <loc>http://10.1.1.206:44019/posts/mts_mlops/</loc>
     <lastmod>2021-12-17T13:12:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/categories/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE/</loc>
+    <loc>http://10.1.1.206:44019/categories/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE/</loc>
     <lastmod>2021-12-17T13:12:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/tags/hpc/</loc>
+    <loc>http://10.1.1.206:44019/tags/hpc/</loc>
     <lastmod>2021-12-15T11:18:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/posts/mts_grom_supercloud/</loc>
+    <loc>http://10.1.1.206:44019/posts/mts_grom_supercloud/</loc>
     <lastmod>2021-12-15T11:18:35+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/tags/asr/</loc>
+    <loc>http://10.1.1.206:44019/tags/asr/</loc>
     <lastmod>2021-01-14T17:36:12+03:00</lastmod>
   </url><url>
-    <loc>http://10.1.1.206:46733/posts/ai_gravitel/</loc>
+    <loc>http://10.1.1.206:44019/posts/ai_gravitel/</loc>
     <lastmod>2021-01-14T17:36:12+03:00</lastmod>
   </url>
 </urlset>

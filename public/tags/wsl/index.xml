@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WSL on IT Experts Team</title>
-    <link>http://10.1.1.206:46733/tags/wsl/</link>
+    <link>http://10.1.1.206:1313/tags/wsl/</link>
     <description>Recent content in WSL on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Wed, 10 Jan 2024 14:07:35 +0300</lastBuildDate>
-    <atom:link href="http://10.1.1.206:46733/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.206:1313/tags/wsl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows Subsystem for Linux (WSL) как инструмент для прототипирования и проверки гипотез</title>
-      <link>http://10.1.1.206:46733/posts/wsl_prototype/</link>
+      <link>http://10.1.1.206:1313/posts/wsl_prototype/</link>
       <pubDate>Wed, 10 Jan 2024 14:07:35 +0300</pubDate>
-      <guid>http://10.1.1.206:46733/posts/wsl_prototype/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:46733/img/fb_n11.jpg&#34; alt=&#34;Prototype&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Выбирая пути развития программного продукта передо мной зачастую возникает задача проверить гипотезу.&lt;/p&gt;&#xA;&lt;p&gt;А гипотезу я предпочитаю проверять максимально простым и быстрым способом.&lt;/p&gt;&#xA;&lt;p&gt;Не планирую описывать команды и отдельные шаги. Опишу саму задачу и подход к решению задачи.&lt;/p&gt;&#xA;&lt;h3 id=&#34;задача&#34;&gt;Задача&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Запустить платформу речевой аналитики&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Речевая Аналитика в телефонии - это полнотекстовый анализ телефонных разговоров. Состоит, укрупненно, из нескольких частей:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Распознавание речи в текст&lt;/li&gt;&#xA;&lt;li&gt;Анализ текста (аналитика)&lt;/li&gt;&#xA;&lt;li&gt;Отчетность и принятие решения&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;гипотеза&#34;&gt;Гипотеза&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Оценив предложения на рынке, решил рассмотреть возможность реализовать платформу самим, внутри компании.&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>http://10.1.1.206:1313/posts/wsl_prototype/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:1313/img/fb_n11.jpg&#34; alt=&#34;Prototype&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Выбирая пути развития программного продукта передо мной зачастую возникает задача проверить гипотезу.&lt;/p&gt;&#xA;&lt;p&gt;А гипотезу я предпочитаю проверять максимально простым и быстрым способом.&lt;/p&gt;&#xA;&lt;p&gt;Не планирую описывать команды и отдельные шаги. Опишу саму задачу и подход к решению задачи.&lt;/p&gt;&#xA;&lt;h3 id=&#34;задача&#34;&gt;Задача&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Запустить платформу речевой аналитики&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Речевая Аналитика в телефонии - это полнотекстовый анализ телефонных разговоров. Состоит, укрупненно, из нескольких частей:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Распознавание речи в текст&lt;/li&gt;&#xA;&lt;li&gt;Анализ текста (аналитика)&lt;/li&gt;&#xA;&lt;li&gt;Отчетность и принятие решения&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;гипотеза&#34;&gt;Гипотеза&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Оценив предложения на рынке, решил рассмотреть возможность реализовать платформу самим, внутри компании.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

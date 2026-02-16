@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HW on IT Experts Team</title>
+    <link>http://10.1.1.206:44019/tags/hw/</link>
+    <description>Recent content in HW on IT Experts Team</description>
+    <generator>Hugo</generator>
+    <language>ru</language>
+    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://10.1.1.206:44019/tags/hw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPU Server and AI Infrastructure: тренды архитектуры 2030</title>
+      <link>http://10.1.1.206:44019/posts/gpu_ai_infra_trends_2030/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://10.1.1.206:44019/posts/gpu_ai_infra_trends_2030/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:44019/img/GPU_AI_2030.jpeg&#34; alt=&#34;2030&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Мы в OpenYard внимательно следим за тем, как развивается инфраструктура для искусственного интеллекта — от железа до сетей и архитектуры дата-центров. Причём это не просто рабочая необходимость, а и то, что нам самим по-настоящему интересно. В эту статью попали материалы, которые мы собираем и анализируем в процессе исследований для наших новых продуктов. Здесь собраны ключевые тренды, которые уже начинают влиять на то, как мы будем строить свою инфраструктуру и запускать модели ИИ в ближайшие 5–7 лет.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
