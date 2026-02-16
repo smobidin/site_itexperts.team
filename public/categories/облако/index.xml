@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Облако on IT Experts Team</title>
-    <link>http://10.1.1.206:44019/categories/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE/</link>
+    <link>https://itexperts.team/categories/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE/</link>
     <description>Recent content in Облако on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Fri, 17 Dec 2021 13:12:35 +0300</lastBuildDate>
-    <atom:link href="http://10.1.1.206:44019/categories/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itexperts.team/categories/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Как устроена платформа автоматизации процессов разработки MLOps Platform #CloudMTS</title>
-      <link>http://10.1.1.206:44019/posts/mts_mlops/</link>
+      <link>https://itexperts.team/posts/mts_mlops/</link>
       <pubDate>Fri, 17 Dec 2021 13:12:35 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/posts/mts_mlops/</guid>
-      <description>&lt;p&gt;В прошлой &lt;a href=&#34;http://10.1.1.206:44019/posts/mts_grom_supercloud/&#34;&gt;статье&lt;/a&gt; я рассказывал, как мы строим сервисы для разработчиков ИИ и, в частности, коснулся истории появления нашей &lt;a href=&#34;https://cloud.mts.ru/services/mlops-platform/?utm_source=habr.com&amp;amp;utm_medium=owned_media_mlops_platform&amp;amp;utm_content=article&amp;amp;utm_term=kak_ustroena_mlops_platform_cloudmts&#34;&gt;MLOps Platform&lt;/a&gt;. Сегодня мне хотелось бы показать ее изнутри — поделиться возможностями и показать инструменты под капотом.&lt;/p&gt;&#xA;&lt;p&gt;Надеюсь, получилось достаточно подробно. А для всего остального есть комментарии: не стесняйтесь задавать вопросы, я обязательно отвечу всем интересующимся. Поехали!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://10.1.1.206:44019/img/mts_mlops_1.png&#34; alt=&#34;CloudMTS&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Итак, когда мы построили наш &lt;a href=&#34;https://cloud.mts.ru/services/gpu-supercloud/?utm_source=habr.com&amp;amp;utm_medium=owned_media_gpu_supercloud&amp;amp;utm_content=article&amp;amp;utm_term=kak_ustroena_mlops_platform_cloudmts&#34;&gt;GPU SuperCloud&lt;/a&gt;, мы поняли, что у некоторых заказчиков есть спрос на услугу «здесь и сейчас». У кого-то горят сроки реализации проекта. Другим не хватает «инженерных» рук. Поэтому мы решили сделать инструмент, который позволял бы прийти «на все готовое». И построили MLOps Platform.&lt;/p&gt;</description>
+      <guid>https://itexperts.team/posts/mts_mlops/</guid>
+      <description>&lt;p&gt;В прошлой &lt;a href=&#34;https://itexperts.team/posts/mts_grom_supercloud/&#34;&gt;статье&lt;/a&gt; я рассказывал, как мы строим сервисы для разработчиков ИИ и, в частности, коснулся истории появления нашей &lt;a href=&#34;https://cloud.mts.ru/services/mlops-platform/?utm_source=habr.com&amp;amp;utm_medium=owned_media_mlops_platform&amp;amp;utm_content=article&amp;amp;utm_term=kak_ustroena_mlops_platform_cloudmts&#34;&gt;MLOps Platform&lt;/a&gt;. Сегодня мне хотелось бы показать ее изнутри — поделиться возможностями и показать инструменты под капотом.&lt;/p&gt;&#xA;&lt;p&gt;Надеюсь, получилось достаточно подробно. А для всего остального есть комментарии: не стесняйтесь задавать вопросы, я обязательно отвечу всем интересующимся. Поехали!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://itexperts.team/img/mts_mlops_1.png&#34; alt=&#34;CloudMTS&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Итак, когда мы построили наш &lt;a href=&#34;https://cloud.mts.ru/services/gpu-supercloud/?utm_source=habr.com&amp;amp;utm_medium=owned_media_gpu_supercloud&amp;amp;utm_content=article&amp;amp;utm_term=kak_ustroena_mlops_platform_cloudmts&#34;&gt;GPU SuperCloud&lt;/a&gt;, мы поняли, что у некоторых заказчиков есть спрос на услугу «здесь и сейчас». У кого-то горят сроки реализации проекта. Другим не хватает «инженерных» рук. Поэтому мы решили сделать инструмент, который позволял бы прийти «на все готовое». И построили MLOps Platform.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform</title>
-      <link>http://10.1.1.206:44019/posts/mts_grom_supercloud/</link>
+      <link>https://itexperts.team/posts/mts_grom_supercloud/</link>
       <pubDate>Wed, 15 Dec 2021 11:18:35 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/posts/mts_grom_supercloud/</guid>
+      <guid>https://itexperts.team/posts/mts_grom_supercloud/</guid>
       <description>&lt;p&gt;Роботы вошли в нашу жизнь. Мы пользуемся ими на повседневной основе, подчас даже не замечая этого. ИИ звонит нам и отвечает на наши звонки. Сейчас даже проезд в метро можно оплатить лицом.&lt;/p&gt;&#xA;&lt;p&gt;Динамичный рост рынка технологий искусственного интеллекта закономерно породил спрос на инфраструктуру для их разработки. Особенность построения моделей искусственного интеллекта состоит в том, что для их обучения требуются очень мощные и производительные решения. Под катом мы поговорим о том, как начался наш путь в сервисы для ИИ и к чему мы пришли сейчас. Коснемся и исторических моментов, и планов на ближайшее будущее.&lt;/p&gt;</description>
     </item>
   </channel>

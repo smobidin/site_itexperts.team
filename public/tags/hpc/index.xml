@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HPC on IT Experts Team</title>
-    <link>http://10.1.1.206:44019/tags/hpc/</link>
+    <link>https://itexperts.team/tags/hpc/</link>
     <description>Recent content in HPC on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Wed, 15 Dec 2021 11:18:35 +0300</lastBuildDate>
-    <atom:link href="http://10.1.1.206:44019/tags/hpc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itexperts.team/tags/hpc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform</title>
-      <link>http://10.1.1.206:44019/posts/mts_grom_supercloud/</link>
+      <link>https://itexperts.team/posts/mts_grom_supercloud/</link>
       <pubDate>Wed, 15 Dec 2021 11:18:35 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/posts/mts_grom_supercloud/</guid>
+      <guid>https://itexperts.team/posts/mts_grom_supercloud/</guid>
       <description>&lt;p&gt;Роботы вошли в нашу жизнь. Мы пользуемся ими на повседневной основе, подчас даже не замечая этого. ИИ звонит нам и отвечает на наши звонки. Сейчас даже проезд в метро можно оплатить лицом.&lt;/p&gt;&#xA;&lt;p&gt;Динамичный рост рынка технологий искусственного интеллекта закономерно породил спрос на инфраструктуру для их разработки. Особенность построения моделей искусственного интеллекта состоит в том, что для их обучения требуются очень мощные и производительные решения. Под катом мы поговорим о том, как начался наш путь в сервисы для ИИ и к чему мы пришли сейчас. Коснемся и исторических моментов, и планов на ближайшее будущее.&lt;/p&gt;</description>
     </item>
   </channel>
