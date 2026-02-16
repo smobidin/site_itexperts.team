@@ -6,13 +6,27 @@
     <description>Recent content in Tags on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Fri, 17 Dec 2021 13:12:35 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 14:07:35 +0300</lastBuildDate>
     <atom:link href="http://10.1.1.206:44019/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>http://10.1.1.206:44019/tags/ai/</link>
-      <pubDate>Fri, 17 Dec 2021 13:12:35 +0300</pubDate>
+      <pubDate>Tue, 01 Oct 2024 14:07:35 +0300</pubDate>
       <guid>http://10.1.1.206:44019/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WSL</title>
+      <link>http://10.1.1.206:44019/tags/wsl/</link>
+      <pubDate>Tue, 01 Oct 2024 14:07:35 +0300</pubDate>
+      <guid>http://10.1.1.206:44019/tags/wsl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WORK</title>
+      <link>http://10.1.1.206:44019/tags/work/</link>
+      <pubDate>Thu, 08 Sep 2022 14:07:35 +0300</pubDate>
+      <guid>http://10.1.1.206:44019/tags/work/</guid>
       <description></description>
     </item>
     <item>

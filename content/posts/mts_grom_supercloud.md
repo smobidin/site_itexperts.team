@@ -86,3 +86,5 @@ GPU SuperCloud фактически стал опорной точкой для 
 [Полный текст статьи в блоге CloudMTS на Хабр](https://habr.com/ru/company/cloud_mts/blog/582374/)
 
 Источник: Блог [#CloudMTS](https://habr.com/ru/company/cloud_mts/profile/)
+
+Станислав Обидин, itexperts.team
