@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on IT Experts Team</title>
-    <link>http://10.1.1.206:44019/tags/</link>
+    <link>http://10.1.1.206:46733/tags/</link>
     <description>Recent content in Tags on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://10.1.1.206:44019/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.1.1.206:46733/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JOKE</title>
-      <link>http://10.1.1.206:44019/tags/joke/</link>
+      <link>http://10.1.1.206:46733/tags/joke/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://10.1.1.206:44019/tags/joke/</guid>
+      <guid>http://10.1.1.206:46733/tags/joke/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://10.1.1.206:44019/tags/ai/</link>
+      <link>http://10.1.1.206:46733/tags/ai/</link>
       <pubDate>Wed, 10 Jan 2024 14:07:35 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/tags/ai/</guid>
+      <guid>http://10.1.1.206:46733/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>WSL</title>
-      <link>http://10.1.1.206:44019/tags/wsl/</link>
+      <link>http://10.1.1.206:46733/tags/wsl/</link>
       <pubDate>Wed, 10 Jan 2024 14:07:35 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/tags/wsl/</guid>
+      <guid>http://10.1.1.206:46733/tags/wsl/</guid>
       <description></description>
     </item>
     <item>
       <title>WORK</title>
-      <link>http://10.1.1.206:44019/tags/work/</link>
+      <link>http://10.1.1.206:46733/tags/work/</link>
       <pubDate>Thu, 08 Sep 2022 14:07:35 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/tags/work/</guid>
+      <guid>http://10.1.1.206:46733/tags/work/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>http://10.1.1.206:44019/tags/cloud/</link>
+      <link>http://10.1.1.206:46733/tags/cloud/</link>
       <pubDate>Fri, 17 Dec 2021 13:12:35 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/tags/cloud/</guid>
+      <guid>http://10.1.1.206:46733/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>MLOps</title>
-      <link>http://10.1.1.206:44019/tags/mlops/</link>
+      <link>http://10.1.1.206:46733/tags/mlops/</link>
       <pubDate>Fri, 17 Dec 2021 13:12:35 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/tags/mlops/</guid>
+      <guid>http://10.1.1.206:46733/tags/mlops/</guid>
       <description></description>
     </item>
     <item>
       <title>HPC</title>
-      <link>http://10.1.1.206:44019/tags/hpc/</link>
+      <link>http://10.1.1.206:46733/tags/hpc/</link>
       <pubDate>Wed, 15 Dec 2021 11:18:35 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/tags/hpc/</guid>
+      <guid>http://10.1.1.206:46733/tags/hpc/</guid>
       <description></description>
     </item>
     <item>
       <title>ASR</title>
-      <link>http://10.1.1.206:44019/tags/asr/</link>
+      <link>http://10.1.1.206:46733/tags/asr/</link>
       <pubDate>Thu, 14 Jan 2021 17:36:12 +0300</pubDate>
-      <guid>http://10.1.1.206:44019/tags/asr/</guid>
+      <guid>http://10.1.1.206:46733/tags/asr/</guid>
       <description></description>
     </item>
   </channel>
