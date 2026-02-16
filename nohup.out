@@ -42,3 +42,41 @@ Change detected, rebuilding site (#4).
 Source changed /posts/gpu_ai_infra_trends_2030.md
 Web Server is available at http://10.1.1.206:46733/ (bind address 0.0.0.0)
 Total in 30 ms
+
+Change detected, rebuilding site (#5).
+2026-02-16 17:20:05.203 +0300
+Source changed /posts/ta_
+Web Server is available at http://10.1.1.206:46733/ (bind address 0.0.0.0)
+Total in 88 ms
+
+Change detected, rebuilding site (#6).
+2026-02-16 17:20:31.703 +0300
+Source changed /posts/ta_/_index.md
+Source changed /posts/ta_oy_ai_comments
+Web Server is available at http://10.1.1.206:46733/ (bind address 0.0.0.0)
+Total in 98 ms
+
+Change detected, rebuilding site (#7).
+2026-02-16 17:24:50.203 +0300
+Source changed /posts/ta_oy_ai_comments/_index.md
+Source changed /posts/20260126_ta_oy_ai_comments.md
+Web Server is available at http://10.1.1.206:46733/ (bind address 0.0.0.0)
+Total in 109 ms
+
+Change detected, rebuilding site (#8).
+2026-02-16 17:26:17.703 +0300
+Source changed /posts/20260126_ta_oy_ai_comments.md
+Web Server is available at http://10.1.1.206:46733/ (bind address 0.0.0.0)
+Total in 20 ms
+
+Change detected, rebuilding site (#9).
+2026-02-16 17:26:34.702 +0300
+Source changed /posts/20260126_ta_oy_ai_comments.md
+Web Server is available at http://10.1.1.206:46733/ (bind address 0.0.0.0)
+Total in 29 ms
+
+Change detected, rebuilding site (#10).
+2026-02-16 17:29:52.702 +0300
+Source changed /posts/20260126_ta_oy_ai_comments.md
+Web Server is available at http://10.1.1.206:46733/ (bind address 0.0.0.0)
+Total in 18 ms
