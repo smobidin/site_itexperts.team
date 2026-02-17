@@ -108,3 +108,12 @@ Change of Static files detected, rebuilding site (#1).
 Change of Static files detected, rebuilding site (#2).
 2026-02-17 18:22:27.225 +0300
 Syncing /img/logo_team.png to /
+
+Change of Static files detected, rebuilding site (#3).
+2026-02-17 18:24:52.225 +0300
+Syncing /img/logo_team_312_312.png to /
+
+Change of config file detected, rebuilding site (#4).
+2026-02-17 18:26:06.725 +0300
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Rebuilt in 285 ms

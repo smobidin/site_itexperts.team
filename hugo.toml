@@ -34,7 +34,7 @@ theme = 'mainroad'
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
 [Params.logo]
-  image = "img/logo_team.png" # Logo image. Path relative to "static"
+  image = "img/logo_team_312_312.png" # Logo image. Path relative to "static"
   title = "ЭКСПЕРТЫ ИТ" # Logo title, otherwise will use site title
   subtitle = "МЫ РОЖДАЕМ ИДЕИ, РАЗВИВАЕМ ПРОЕКТЫ И РЕШАЕМ ЗАДАЧИ" # Logo subtitle
 
