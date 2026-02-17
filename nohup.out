@@ -101,3 +101,10 @@ Environment: "development"
 Serving pages from disk
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0) 
 Press Ctrl+C to stop
+
+Change of Static files detected, rebuilding site (#1).
+2026-02-17 18:19:28.225 +0300
+
+Change of Static files detected, rebuilding site (#2).
+2026-02-17 18:22:27.225 +0300
+Syncing /img/logo_team.png to /
