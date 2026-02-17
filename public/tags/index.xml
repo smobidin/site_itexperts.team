@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on IT Experts Team</title>
-    <link>https://itexperts.team/tags/</link>
+    <link>https://itexperts.team:1313/tags/</link>
     <description>Recent content in Tags on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://itexperts.team/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itexperts.team:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>https://itexperts.team/tags/ai/</link>
+      <link>https://itexperts.team:1313/tags/ai/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://itexperts.team/tags/ai/</guid>
+      <guid>https://itexperts.team:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>HW</title>
-      <link>https://itexperts.team/tags/hw/</link>
+      <link>https://itexperts.team:1313/tags/hw/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://itexperts.team/tags/hw/</guid>
+      <guid>https://itexperts.team:1313/tags/hw/</guid>
       <description></description>
     </item>
     <item>
       <title>JOKE</title>
-      <link>https://itexperts.team/tags/joke/</link>
+      <link>https://itexperts.team:1313/tags/joke/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://itexperts.team/tags/joke/</guid>
+      <guid>https://itexperts.team:1313/tags/joke/</guid>
       <description></description>
     </item>
     <item>
       <title>WSL</title>
-      <link>https://itexperts.team/tags/wsl/</link>
+      <link>https://itexperts.team:1313/tags/wsl/</link>
       <pubDate>Wed, 10 Jan 2024 14:07:35 +0300</pubDate>
-      <guid>https://itexperts.team/tags/wsl/</guid>
+      <guid>https://itexperts.team:1313/tags/wsl/</guid>
       <description></description>
     </item>
     <item>
       <title>WORK</title>
-      <link>https://itexperts.team/tags/work/</link>
+      <link>https://itexperts.team:1313/tags/work/</link>
       <pubDate>Thu, 08 Sep 2022 14:07:35 +0300</pubDate>
-      <guid>https://itexperts.team/tags/work/</guid>
+      <guid>https://itexperts.team:1313/tags/work/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://itexperts.team/tags/cloud/</link>
+      <link>https://itexperts.team:1313/tags/cloud/</link>
       <pubDate>Fri, 17 Dec 2021 13:12:35 +0300</pubDate>
-      <guid>https://itexperts.team/tags/cloud/</guid>
+      <guid>https://itexperts.team:1313/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>MLOps</title>
-      <link>https://itexperts.team/tags/mlops/</link>
+      <link>https://itexperts.team:1313/tags/mlops/</link>
       <pubDate>Fri, 17 Dec 2021 13:12:35 +0300</pubDate>
-      <guid>https://itexperts.team/tags/mlops/</guid>
+      <guid>https://itexperts.team:1313/tags/mlops/</guid>
       <description></description>
     </item>
     <item>
       <title>HPC</title>
-      <link>https://itexperts.team/tags/hpc/</link>
+      <link>https://itexperts.team:1313/tags/hpc/</link>
       <pubDate>Wed, 15 Dec 2021 11:18:35 +0300</pubDate>
-      <guid>https://itexperts.team/tags/hpc/</guid>
+      <guid>https://itexperts.team:1313/tags/hpc/</guid>
       <description></description>
     </item>
     <item>
       <title>ASR</title>
-      <link>https://itexperts.team/tags/asr/</link>
+      <link>https://itexperts.team:1313/tags/asr/</link>
       <pubDate>Thu, 14 Jan 2021 17:36:12 +0300</pubDate>
-      <guid>https://itexperts.team/tags/asr/</guid>
+      <guid>https://itexperts.team:1313/tags/asr/</guid>
       <description></description>
     </item>
   </channel>

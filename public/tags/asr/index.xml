@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ASR on IT Experts Team</title>
-    <link>https://itexperts.team/tags/asr/</link>
+    <link>https://itexperts.team:1313/tags/asr/</link>
     <description>Recent content in ASR on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Thu, 14 Jan 2021 17:36:12 +0300</lastBuildDate>
-    <atom:link href="https://itexperts.team/tags/asr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itexperts.team:1313/tags/asr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Голосовой ассистент – помощник или конкурент?</title>
-      <link>https://itexperts.team/posts/ai_gravitel/</link>
+      <link>https://itexperts.team:1313/posts/ai_gravitel/</link>
       <pubDate>Thu, 14 Jan 2021 17:36:12 +0300</pubDate>
-      <guid>https://itexperts.team/posts/ai_gravitel/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://itexperts.team/img/ai_gravitel.png&#34; alt=&#34;Голосовой ассистент – помощник или конкурент?&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;В &lt;a href=&#34;https://www.gravitel.ru/&#34;&gt;Гравител&lt;/a&gt; силами разработчиков компании ведем работу по созданию сразу двух систем: Голосовой ассистент и Речевая аналитика. Проект Голосового ассистента, сайт проекта &lt;a href=&#34;https://aicall.ru/&#34;&gt;https://aicall.ru&lt;/a&gt;, начался весной 2020, и уже в октябре 2020 начал обслуживать первого коммерческого заказчика.&lt;br&gt;&#xA;Периодически в диалогах с заказчиками сталкиваемся с некой формой боязни роботов. Кто-то считает, что людей придется сокращать. Кто-то боится попасть под это сокращение.&lt;br&gt;&#xA;Решили порассуждать на тему конкуренции человека и робота в области телефонии. Подготовил эту статью.&lt;/p&gt;</description>
+      <guid>https://itexperts.team:1313/posts/ai_gravitel/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://itexperts.team:1313/img/ai_gravitel.png&#34; alt=&#34;Голосовой ассистент – помощник или конкурент?&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;В &lt;a href=&#34;https://www.gravitel.ru/&#34;&gt;Гравител&lt;/a&gt; силами разработчиков компании ведем работу по созданию сразу двух систем: Голосовой ассистент и Речевая аналитика. Проект Голосового ассистента, сайт проекта &lt;a href=&#34;https://aicall.ru/&#34;&gt;https://aicall.ru&lt;/a&gt;, начался весной 2020, и уже в октябре 2020 начал обслуживать первого коммерческого заказчика.&lt;br&gt;&#xA;Периодически в диалогах с заказчиками сталкиваемся с некой формой боязни роботов. Кто-то считает, что людей придется сокращать. Кто-то боится попасть под это сокращение.&lt;br&gt;&#xA;Решили порассуждать на тему конкуренции человека и робота в области телефонии. Подготовил эту статью.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

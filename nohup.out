@@ -80,3 +80,24 @@ Change detected, rebuilding site (#10).
 Source changed /posts/20260126_ta_oy_ai_comments.md
 Web Server is available at http://10.1.1.206:46733/ (bind address 0.0.0.0)
 Total in 18 ms
+Watching for changes in /home/stas/www/itexperts.team/archetypes, /home/stas/www/itexperts.team/assets, /home/stas/www/itexperts.team/content/{contact,jokes,posts}, /home/stas/www/itexperts.team/data, /home/stas/www/itexperts.team/i18n, /home/stas/www/itexperts.team/layouts, /home/stas/www/itexperts.team/static/img, /home/stas/www/itexperts.team/themes/mainroad/archetypes, /home/stas/www/itexperts.team/themes/mainroad/assets/css, /home/stas/www/itexperts.team/themes/mainroad/i18n, ... and 3 more
+Watching for config changes in /home/stas/www/itexperts.team/hugo.toml
+Start building sites … 
+hugo v0.155.3+extended linux/amd64 BuildDate=unknown
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │ 52 
+ Paginator pages  │  0 
+ Non-page files   │  0 
+ Static files     │ 23 
+ Processed images │  0 
+ Aliases          │ 19 
+ Cleaned          │  0 
+
+Built in 109 ms
+Environment: "development"
+Serving pages from disk
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0) 
+Press Ctrl+C to stop

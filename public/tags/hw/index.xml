@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HW on IT Experts Team</title>
-    <link>https://itexperts.team/tags/hw/</link>
+    <link>https://itexperts.team:1313/tags/hw/</link>
     <description>Recent content in HW on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://itexperts.team/tags/hw/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itexperts.team:1313/tags/hw/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Как ИИ меняет проектирование и эксплуатацию дата-центров в России. TA мнения</title>
-      <link>https://itexperts.team/posts/20260126_ta_oy_ai_comments/</link>
+      <link>https://itexperts.team:1313/posts/20260126_ta_oy_ai_comments/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://itexperts.team/posts/20260126_ta_oy_ai_comments/</guid>
+      <guid>https://itexperts.team:1313/posts/20260126_ta_oy_ai_comments/</guid>
       <description>&lt;p&gt;Дал комментарий для &lt;a href=&#34;https://www.tadviser.ru&#34;&gt;TAdviser&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Затрагивается тема влияния &lt;a href=&#34;https://www.tadviser.ru/index.php/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F:%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%B4%D0%B0%D1%82%D0%B0-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%BE%D0%B2_%D0%B2_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8#.2A_.D0.9A.D0.B0.D0.BA_.D0.98.D0.98_.D0.BC.D0.B5.D0.BD.D1.8F.D0.B5.D1.82_.D0.BF.D1.80.D0.BE.D0.B5.D0.BA.D1.82.D0.B8.D1.80.D0.BE.D0.B2.D0.B0.D0.BD.D0.B8.D0.B5_.D0.B8_.D1.8D.D0.BA.D1.81.D0.BF.D0.BB.D1.83.D0.B0.D1.82.D0.B0.D1.86.D0.B8.D1.8E_.D0.B4.D0.B0.D1.82.D0.B0-.D1.86.D0.B5.D0.BD.D1.82.D1.80.D0.BE.D0.B2_.D0.B2_.D0.A0.D0.BE.D1.81.D1.81.D0.B8.D0.B8._TA_.D0.BC.D0.BD.D0.B5.D0.BD.D0.B8.D1.8F&#34;&gt;ИИ в строительстве ЦОД&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Искусственный интеллект давно перестал быть футуристической концепцией и стал рабочим инструментом в самых разных сферах. Но пока обыватели обсуждают креативные возможности ChatGPT и генерацию изображений, в фундаменте цифрового мира — дата-центрах — происходит своя, не менее значимая тихая революция. От оптимизации энергопотребления до предсказательного ремонта оборудования: TAdviser поговорил с экспертами и участниками рынка, чтобы выяснить, как ИИ применяется при создании и эксплуатации ЦОДов в России.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GPU Server and AI Infrastructure: тренды архитектуры 2030</title>
-      <link>https://itexperts.team/posts/gpu_ai_infra_trends_2030/</link>
+      <link>https://itexperts.team:1313/posts/gpu_ai_infra_trends_2030/</link>
       <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://itexperts.team/posts/gpu_ai_infra_trends_2030/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://itexperts.team/img/GPU_AI_2030.jpeg&#34; alt=&#34;2030&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Мы в OpenYard внимательно следим за тем, как развивается инфраструктура для искусственного интеллекта — от железа до сетей и архитектуры дата-центров. Причём это не просто рабочая необходимость, а и то, что нам самим по-настоящему интересно. В эту статью попали материалы, которые мы собираем и анализируем в процессе исследований для наших новых продуктов. Здесь собраны ключевые тренды, которые уже начинают влиять на то, как мы будем строить свою инфраструктуру и запускать модели ИИ в ближайшие 5–7 лет.&lt;/p&gt;</description>
+      <guid>https://itexperts.team:1313/posts/gpu_ai_infra_trends_2030/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://itexperts.team:1313/img/GPU_AI_2030.jpeg&#34; alt=&#34;2030&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Мы в OpenYard внимательно следим за тем, как развивается инфраструктура для искусственного интеллекта — от железа до сетей и архитектуры дата-центров. Причём это не просто рабочая необходимость, а и то, что нам самим по-настоящему интересно. В эту статью попали материалы, которые мы собираем и анализируем в процессе исследований для наших новых продуктов. Здесь собраны ключевые тренды, которые уже начинают влиять на то, как мы будем строить свою инфраструктуру и запускать модели ИИ в ближайшие 5–7 лет.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

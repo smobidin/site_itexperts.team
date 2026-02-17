@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WORK on IT Experts Team</title>
-    <link>https://itexperts.team/tags/work/</link>
+    <link>https://itexperts.team:1313/tags/work/</link>
     <description>Recent content in WORK on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Thu, 08 Sep 2022 14:07:35 +0300</lastBuildDate>
-    <atom:link href="https://itexperts.team/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itexperts.team:1313/tags/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VS Code и GitHub - как универсальная записная книжка</title>
-      <link>https://itexperts.team/posts/vscode_github_prototype/</link>
+      <link>https://itexperts.team:1313/posts/vscode_github_prototype/</link>
       <pubDate>Thu, 08 Sep 2022 14:07:35 +0300</pubDate>
-      <guid>https://itexperts.team/posts/vscode_github_prototype/</guid>
+      <guid>https://itexperts.team:1313/posts/vscode_github_prototype/</guid>
       <description>&lt;p&gt;Простой лайвхак, как использовать Visual Studio Code (VS Code) в качестве редактора заметок на множестве рабочих мест;)&lt;/p&gt;&#xA;&lt;p&gt;Очень просто.&lt;/p&gt;&#xA;&lt;p&gt;Делаем себе личный закрытый репозиторий на GitHub и ведем в нем свои записи в любом удобном виде.&lt;br&gt;&#xA;Хоть PlantUML, хоть текст. Очень удобно вести заметки в Markdown. А дальше - git pull, git push.&lt;/p&gt;&#xA;&lt;p&gt;Записная книжка для работы с коллегами или друзьями? Делаем репозиторий в GitHub и приглашаем к нему коллег или друзей;)&lt;/p&gt;</description>
     </item>
   </channel>
