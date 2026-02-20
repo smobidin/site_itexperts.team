@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Современный ЦОД для ИИ - IT Experts Team</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:url" content="https://itexperts.team/posts/2025_dc_for_ai/">
+  <meta property="og:site_name" content="IT Experts Team">
+  <meta property="og:title" content="Современный ЦОД для ИИ">
+  <meta property="og:description" content="Вызов продиктован современными трендами развития ИИ инфраструктуры и потребностью строительства оптимизированных ЦОД.
+Опорные данные:
+В качестве сервера для расчетов взят сервер Nvidia DGX B200 и серверы с жидкостным охлаждением размером 4U SXM B200 Стартовое число размещаемых в ЦОД серверов: 100 штук Среднегодовой рост числа серверов: 200 штук в год Современный машинный зал для ИИ — это высокоплотная инженерная система, где критически важны энергоэффективность, максимальная плотность размещения оборудования и стратегический выбор архитектуры охлаждения. Для ЦОД ИИ со стартом на 100 серверов NVIDIA DGX B200 (10U в стойке) с ежегодным приростом 200 серверов и расчетом на 3 года, оптимальная инфраструктура требует жесткого следования ряду технических и экономических принципов. Так же рассмотрено размещение серверов с жидкостным охлаждением, более плотное размещение.">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-02-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-08T00:00:00+00:00">
+    <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="HW">
+    <meta property="article:tag" content="HPC">
+
+		
+  <meta itemprop="name" content="Современный ЦОД для ИИ">
+  <meta itemprop="description" content="Вызов продиктован современными трендами развития ИИ инфраструктуры и потребностью строительства оптимизированных ЦОД.
+Опорные данные:
+В качестве сервера для расчетов взят сервер Nvidia DGX B200 и серверы с жидкостным охлаждением размером 4U SXM B200 Стартовое число размещаемых в ЦОД серверов: 100 штук Среднегодовой рост числа серверов: 200 штук в год Современный машинный зал для ИИ — это высокоплотная инженерная система, где критически важны энергоэффективность, максимальная плотность размещения оборудования и стратегический выбор архитектуры охлаждения. Для ЦОД ИИ со стартом на 100 серверов NVIDIA DGX B200 (10U в стойке) с ежегодным приростом 200 серверов и расчетом на 3 года, оптимальная инфраструктура требует жесткого следования ряду технических и экономических принципов. Так же рассмотрено размещение серверов с жидкостным охлаждением, более плотное размещение.">
+  <meta itemprop="datePublished" content="2026-02-08T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-02-08T00:00:00+00:00">
+  <meta itemprop="wordCount" content="714">
+  <meta itemprop="keywords" content="AI,HW,HPC">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="ЭКСПЕРТЫ ИТ" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/logo_team_312_312.png">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">ЭКСПЕРТЫ ИТ</div>
+					<div class="logo__tagline">МЫ РОЖДАЕМ ИДЕИ, РАЗВИВАЕМ ПРОЕКТЫ И РЕШАЕМ ЗАДАЧИ</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Меню</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item menu__item--active">
+			<a class="menu__link" href="/posts/">
+				
+				<span class="menu__text">Статьи</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/jokes/">
+				
+				<span class="menu__text">Шутки</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/contact/">
+				
+				<span class="menu__text">Контакты</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Современный ЦОД для ИИ</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2026-02-08T00:00:00Z">2026-02-08</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/%D0%B8%D1%81%D0%BA%D1%83%D1%81c%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82/" rel="category">Искусcтвенный Интеллект</a>, <a class="meta__link" href="/categories/%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/" rel="category">Инфраструктура</a>
+	</span>
+</div></div>
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">Содержимое страницы</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#мощность-на-стойку-и-конфигурация-машинного-зала">Мощность на стойку и конфигурация машинного зала</a></li>
+    <li><a href="#плотность-размещения-dgx-b200-в-стандартной-42u-стойке">Плотность размещения: DGX B200 в стандартной 42U стойке</a></li>
+    <li><a href="#плотность-размещения-4u-sxm-b200-серверов-в-42u-стойке">Плотность размещения 4U SXM B200 серверов в 42U стойке</a></li>
+    <li><a href="#масштабирование-количество-стоек-и-ит-мощность-3-года">Масштабирование, количество стоек и ИТ-мощность (3 года)</a></li>
+    <li><a href="#требования-к-электропитанию-объекта">Требования к электропитанию объекта</a>
+      <ul>
+        <li><a href="#воздушное-охлаждение-100">Воздушное охлаждение (100%)</a></li>
+        <li><a href="#жидкостное-охлаждение-с-фрикулингом-80-85-тепла-уходит-за-пределы-машинного-зала">Жидкостное охлаждение с фрикулингом (80-85% тепла уходит за пределы машинного зала)</a></li>
+      </ul>
+    </li>
+    <li><a href="#рекомендации">Рекомендации</a></li>
+    <li><a href="#итоговый-вывод">Итоговый вывод</a></li>
+    <li><a href="#использованные-материалы">Использованные материалы</a></li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<p>Вызов продиктован современными трендами развития ИИ инфраструктуры и потребностью строительства оптимизированных ЦОД.</p>
+<p>Опорные данные:</p>
+<ol>
+<li>В качестве сервера для расчетов взят сервер Nvidia DGX B200 и серверы с жидкостным охлаждением размером 4U SXM B200</li>
+<li>Стартовое число размещаемых в ЦОД серверов: 100 штук</li>
+<li>Среднегодовой рост числа серверов: 200 штук в год</li>
+</ol>
+<p>Современный машинный зал для ИИ — это высокоплотная инженерная система, где критически важны энергоэффективность, максимальная плотность размещения оборудования и стратегический выбор архитектуры охлаждения. Для ЦОД ИИ со стартом на 100 серверов NVIDIA DGX B200 (10U в стойке) с ежегодным приростом 200 серверов и расчетом на 3 года, оптимальная инфраструктура требует жесткого следования ряду технических и экономических принципов. Так же рассмотрено размещение серверов с жидкостным охлаждением, более плотное размещение.</p>
+<h2 id="мощность-на-стойку-и-конфигурация-машинного-зала">Мощность на стойку и конфигурация машинного зала</h2>
+<p>Современные AI-серверы с видеокартами NVIDIA GB200 потребляют значительно больше энергии, чем традиционное оборудование. Стойка GB200 NVL72 с жидкостным охлаждением содержит 72 GPU Blackwell и потребляет около <strong>120 кВт</strong>, что в 10 раз превышает мощность классических серверных стоек (10-12 кВт). Для сравнения: стойки с воздушным охлаждением на базе H100 редко превышают 40 кВт, а традиционные CPU-стойки работают в диапазоне 7-15 кВт.</p>
+<p><strong>Жидкостное охлаждение с фрикулингом (80% тепла уходит за пределы машинного зала) способно снизить PUE с 1.6 (воздушное) до 1.15-1.20 (достижимо с DLC + freecooling), уменьшить инфраструктурные потери с ~5 до ~1.82 МВт, тем самым обеспечить ежегодную экономию.</strong></p>
+<hr>
+<h2 id="плотность-размещения-dgx-b200-в-стандартной-42u-стойке">Плотность размещения: DGX B200 в стандартной 42U стойке</h2>
+<ul>
+<li><strong>Размер DGX B200:</strong> 10U</li>
+<li><strong>42U стойка:</strong> 3U резервируется под PDU/мониторинг, остается 39U</li>
+<li><strong>ИТОГ:</strong>
+<ul>
+<li><strong>3 сервера на 42U стойку</strong></li>
+<li><strong>39 кВт на стойку</strong> (3 × 13 кВт; реальное энергопотребление одного сервера — до 13 кВт по спецификации)</li>
+</ul>
+</li>
+</ul>
+<p>Эту плотность физически можно увеличить, если использовать более плотные серверы, например, с жидкостным охлаждением.</p>
+<h2 id="плотность-размещения-4u-sxm-b200-серверов-в-42u-стойке">Плотность размещения 4U SXM B200 серверов в 42U стойке</h2>
+<ul>
+<li><strong>Форм-фактор сервера:</strong> 4U (176 мм высоты)</li>
+<li><strong>Мощность:</strong> 13 кВт</li>
+<li><strong>42U стойка:</strong> полная высота 42 RU</li>
+</ul>
+<p>Максимальная плотность</p>
+<p><strong>Резервирование:</strong> 3 RU для PDU и управления<br>
+<strong>Доступное пространство:</strong> 42 - 3 = 39 RU
+<strong>Максимум серверов:</strong> 9 серверов
+<strong>Оставшееся место:</strong> 3 RU (для доп. инструментария или оставляется свободным)
+<strong>Мощность на стойку:</strong> 9 серверов×13 кВт=117 кВт/стойка</p>
+<p>Это <strong>ровно в 3 раза больше</strong>, чем плотность 10U DGX B200 (39 кВт/стойка), и требует специализированного оборудования питания высокой мощности.</p>
+<hr>
+<h2 id="масштабирование-количество-стоек-и-ит-мощность-3-года">Масштабирование, количество стоек и ИТ-мощность (3 года)</h2>
+<p>Для серверов Nvidia DGX B200:</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Год</strong></th>
+          <th><strong>Серверы</strong></th>
+          <th><strong>42U Стойки</strong></th>
+          <th><strong>IT-мощность (МВт)</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>100</td>
+          <td>34</td>
+          <td>1.30</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>300</td>
+          <td>100</td>
+          <td>3.90</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>500</td>
+          <td>167</td>
+          <td>6.50</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>700</td>
+          <td>234</td>
+          <td>9.10</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Реальная конфигурация машинного зала на третий год:</strong></p>
+<ul>
+<li><strong>700 серверов</strong></li>
+<li><strong>234 полноценных стойки</strong></li>
+<li><strong>9.1 МВт чистой нагрузки на ИТ-оборудование</strong></li>
+</ul>
+<p>Для серверов жидкостного охлаждения, размером 4U:</p>
+<table>
+  <thead>
+      <tr>
+          <th><strong>Год</strong></th>
+          <th><strong>Серверы</strong></th>
+          <th><strong>42U Стойки</strong></th>
+          <th><strong>IT-мощность (МВт)</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0</td>
+          <td>100</td>
+          <td>12</td>
+          <td>1.30</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>300</td>
+          <td>34</td>
+          <td>3.90</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>500</td>
+          <td>56</td>
+          <td>6.50</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>700</td>
+          <td>78</td>
+          <td>9.10</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="требования-к-электропитанию-объекта">Требования к электропитанию объекта</h2>
+<h3 id="воздушное-охлаждение-100">Воздушное охлаждение (100%)</h3>
+<ul>
+<li><strong>PUE (Power Usage Effectiveness):</strong> 1.6 (типовой предел для современных воздушных решений)</li>
+<li><strong>Общая мощность объекта:</strong><br>
+9.1 МВт×1.6=14.56 МВт</li>
+<li><strong>Инфраструктурные потери (охлаждение, UPS, трансформаторы):</strong><br>
+14.56−9.1=5.46 МВт</li>
+</ul>
+<hr>
+<h3 id="жидкостное-охлаждение-с-фрикулингом-80-85-тепла-уходит-за-пределы-машинного-зала">Жидкостное охлаждение с фрикулингом (80-85% тепла уходит за пределы машинного зала)</h3>
+<ul>
+<li><strong>PUE после внедрения жидкостного охлаждения:</strong><br>
+1.15-1.20 (достижимо с DLC + freecooling)</li>
+<li><strong>Общая мощность объекта:</strong><br>
+9.1 МВт×1.2=10.92 МВт</li>
+<li><strong>Инфраструктурные потери:</strong><br>
+10.92−9.1=1.82 МВт</li>
+</ul>
+<hr>
+<h2 id="рекомендации">Рекомендации</h2>
+<ul>
+<li><strong>Энергетическая инфраструктура</strong>: закладывать мощности как минимум на 12–15 МВт; сроки подведения 12–24 месяца. Рассмотреть переход на 800 VDC архитектуру для rack-scale систем мощностью &gt;200 кВт, как это планирует Nvidia.</li>
+<li><strong>Архитектура охлаждения</strong>: необходим переход на Direct-to-Chip и фрикулинг (жидкостный контур + внешние теплообменники с воздушным/водяным охлаждением), резервное воздушное охлаждение на ~20%.</li>
+<li><strong>Гибридный подход</strong>: сохранить воздушное охлаждение для некритичных компонентов (память, BMC, networking), что составляет 15-25% тепловой нагрузки</li>
+<li><strong>Расширяемость</strong>: заложить в проект места под 2–3-кратный рост (до 1 500 серверов, 500+ стойки, 20–30 МВт по входной мощности).</li>
+<li><strong>Модульность</strong>: проектировать инфраструктуру модульно с возможностью поэтапного ввода мощностей по мере роста AI-кластера.</li>
+<li><strong>Утилизация тепла</strong>: рассмотреть интеграцию систем рекуперации тепла для отопления или промышленного использования, что дополнительно улучшает экономику проекта.</li>
+</ul>
+<hr>
+<h2 id="итоговый-вывод">Итоговый вывод</h2>
+<p>Мощность ЦОД или машинного зала на 700 серверов составит 9.1 МВт; в современных условиях воздушная система проигрывает по экономике и масштабируемости комбинированному жидкостному решению.</p>
+<p><strong>Воздушное охлаждение (PUE ~1.6):</strong> максимальный “нагрузочный” потолок, быстро устареет с ростом количества серверов и роста энергопотребления серверов.</p>
+<p><strong>Жидкостное охлаждение + фрикулинг (PUE ~1.2):</strong> стратегически наиболее правильный выбор при плотности от 500 серверов и выше с учёта преимуществ по масштабируемости, отказоустойчивости и компактности.</p>
+<h2 id="использованные-материалы">Использованные материалы</h2>
+<ol>
+<li><a href="https://newsletter.semianalysis.com/p/datacenter-anatomy-part-2-cooling-systems?utm_source=publication-search">Datacenter Anatomy Part 2 – Cooling Systems</a></li>
+<li><a href="https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6InNlbWlhbmFseXNpcy5wYXNzcG9ydC5vbmxpbmUiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzZW1pYW5hbHlzaXMucGFzc3BvcnQub25saW5lIiwiYXpwIjoiS1NncVhBaGFmZmtwVjQzbmt0UU1INSIsImVudCI6eyJ1cmkiOlsiaHR0cHM6Ly9zZW1pYW5hbHlzaXMuY29tLzIwMjUvMDkvMTYveGFpcy1jb2xvc3N1cy0yLWZpcnN0LWdpZ2F3YXR0LWRhdGFjZW50ZXIvIl19LCJleHAiOjE3NjA2MzY5MjcsImlhdCI6MTc1ODA0NDkyNywiaXNzIjoiaHR0cHM6Ly9zZW1pYW5hbHlzaXMucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJkZjA3NjYxZS04YTcyLTQwMDktODg0Yi04MjcwMzI2ZTVkYjkiLCJ1c2UiOiJhY2Nlc3MifQ.7bf7k4mkg8rf47lv6bs6G0HecIlaauY2S7Bc2UjLLBpIH8jb-lsoA99lQn8TlzsOBfVRsSUXrcY1-fGocDFAtw">xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise – SemiAnalysis</a></li>
+</ol>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M4 0h8s2 0 4 2l15 15s2 2 0 4L21 31s-2 2-4 0L2 16s-2-2-2-4V3s0-3 4-3m3 10a3 3 0 0 0 0-6 3 3 0 0 0 0 6"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/ai/" rel="tag">AI</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/hw/" rel="tag">HW</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/hpc/" rel="tag">HPC</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/20260126_ta_oy_ai_comments/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Назад</span>
+			<p class="pager__title">Как ИИ меняет проектирование и эксплуатацию дата-центров в России. TA мнения</p>
+		</a>
+	</div>
+</nav>
+
+<section class="comments">
+	<div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "Stas" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<input class="widget-search__field" type="search" placeholder="Поиск…" value="" name="q" aria-label="Поиск…">
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://itexperts.team/">
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Недавние публикации</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/2025_dc_for_ai/">Современный ЦОД для ИИ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/20260126_ta_oy_ai_comments/">Как ИИ меняет проектирование и эксплуатацию дата-центров в России. TA мнения</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/gpu_ai_infra_trends_2030/">GPU Server and AI Infrastructure: тренды архитектуры 2030</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/wsl_prototype/">Windows Subsystem for Linux (WSL) как инструмент для прототипирования и проверки гипотез</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/vscode_github_prototype/">VS Code и GitHub - как универсальная записная книжка</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Категории</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/">Инфраструктура</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">1</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%D0%B8%D1%81%D0%BA%D1%83%D1%81c%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82/">Искусcтвенный Интеллект</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">7</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%BE/">Облако</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">2</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/">Разработка</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">3</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/%D1%88%D1%83%D1%82%D0%BA%D0%B0/">Шутка</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">5</span>
+				</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Теги</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/ai/" title="AI">AI (7)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/asr/" title="ASR">ASR (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/cloud/" title="Cloud">Cloud (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hpc/" title="HPC">HPC (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hw/" title="HW">HW (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/joke/" title="JOKE">JOKE (5)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/mlops/" title="MLOps">MLOps (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/work/" title="WORK">WORK (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/wsl/" title="WSL">WSL (1)</a>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Социальные сети</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="LinkedIn" rel="noopener noreferrer" href="https://linkedin.com/in/sobidin" target="_blank">
+				<svg class="widget-social__link-icon icon icon-linkedin" width="24" height="24" viewBox="0 0 352 352"><path d="M0,40v272c0,21.9,18.1,40,40,40h272c21.9,0,40-18.1,40-40V40c0-21.9-18.1-40-40-40H40C18.1,0,0,18.1,0,40z M312,32 c4.6,0,8,3.4,8,8v272c0,4.6-3.4,8-8,8H40c-4.6,0-8-3.4-8-8V40c0-4.6,3.4-8,8-8H312z M59.5,87c0,15.2,12.3,27.5,27.5,27.5 c15.2,0,27.5-12.3,27.5-27.5c0-15.2-12.3-27.5-27.5-27.5C71.8,59.5,59.5,71.8,59.5,87z M187,157h-1v-21h-45v152h47v-75 c0-19.8,3.9-39,28.5-39c24.2,0,24.5,22.4,24.5,40v74h47v-83.5c0-40.9-8.7-72-56.5-72C208.5,132.5,193.3,145.1,187,157z M64,288h47.5 V136H64V288z"/></svg>
+				<span>LinkedIn</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Telegram" rel="noopener noreferrer" href="https://t.me/sobidin" target="_blank">
+				<svg class="widget-social__link-icon icon icon-telegram" width="24" height="24" viewBox="0 0 132 110"><path fill="#ddd" d="M50 103c-4 0-3-1-5-5L34 60l88-52"/><path fill="#aaa" d="M50 103c3 0 4-1 6-3l16-16-20-12"/><path fill="#fff" d="M52 72l48 36c6 3 10 2 11-5l20-93c2-8-3-11-8-9L7 45c-8 4-8 8-1 10l29 9 69-43c3-2 6-1 4 1"/></svg>
+				<span>Telegram</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/smobidin" target="_blank">
+				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+
+		
+	</div>
+</div>
+
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2026 IT Experts Team.
+			<span class="footer__copyright-credits">Сгенерировано с использованием <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> и темы <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Контакты on IT Experts Team</title>
-    <link>https://itexperts.team:1313/contact/</link>
+    <link>https://itexperts.team/contact/</link>
     <description>Recent content in Контакты on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://itexperts.team:1313/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itexperts.team/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

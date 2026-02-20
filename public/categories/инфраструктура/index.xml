@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HPC on IT Experts Team</title>
-    <link>https://itexperts.team/tags/hpc/</link>
-    <description>Recent content in HPC on IT Experts Team</description>
+    <title>Инфраструктура on IT Experts Team</title>
+    <link>https://itexperts.team/categories/%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/</link>
+    <description>Recent content in Инфраструктура on IT Experts Team</description>
     <generator>Hugo</generator>
     <language>ru</language>
     <lastBuildDate>Sun, 08 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://itexperts.team/tags/hpc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itexperts.team/categories/%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Современный ЦОД для ИИ</title>
       <link>https://itexperts.team/posts/2025_dc_for_ai/</link>
       <pubDate>Sun, 08 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://itexperts.team/posts/2025_dc_for_ai/</guid>
       <description>&lt;p&gt;Вызов продиктован современными трендами развития ИИ инфраструктуры и потребностью строительства оптимизированных ЦОД.&lt;/p&gt;&#xA;&lt;p&gt;Опорные данные:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;В качестве сервера для расчетов взят сервер Nvidia DGX B200 и серверы с жидкостным охлаждением размером 4U SXM B200&lt;/li&gt;&#xA;&lt;li&gt;Стартовое число размещаемых в ЦОД серверов: 100 штук&lt;/li&gt;&#xA;&lt;li&gt;Среднегодовой рост числа серверов: 200 штук в год&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Современный машинный зал для ИИ — это высокоплотная инженерная система, где критически важны энергоэффективность, максимальная плотность размещения оборудования и стратегический выбор архитектуры охлаждения. Для ЦОД ИИ со стартом на 100 серверов NVIDIA DGX B200 (10U в стойке) с ежегодным приростом 200 серверов и расчетом на 3 года, оптимальная инфраструктура требует жесткого следования ряду технических и экономических принципов. Так же рассмотрено размещение серверов с жидкостным охлаждением, более плотное размещение.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform</title>
-      <link>https://itexperts.team/posts/mts_grom_supercloud/</link>
-      <pubDate>Wed, 15 Dec 2021 11:18:35 +0300</pubDate>
-      <guid>https://itexperts.team/posts/mts_grom_supercloud/</guid>
-      <description>&lt;p&gt;Роботы вошли в нашу жизнь. Мы пользуемся ими на повседневной основе, подчас даже не замечая этого. ИИ звонит нам и отвечает на наши звонки. Сейчас даже проезд в метро можно оплатить лицом.&lt;/p&gt;&#xA;&lt;p&gt;Динамичный рост рынка технологий искусственного интеллекта закономерно породил спрос на инфраструктуру для их разработки. Особенность построения моделей искусственного интеллекта состоит в том, что для их обучения требуются очень мощные и производительные решения. Под катом мы поговорим о том, как начался наш путь в сервисы для ИИ и к чему мы пришли сейчас. Коснемся и исторических моментов, и планов на ближайшее будущее.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
