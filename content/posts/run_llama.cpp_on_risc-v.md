@@ -88,7 +88,7 @@ ggml-cpu/arch/riscv/quants.c:1979:5: error: unknown type name ‘vuint16mf2_t’
       |     uint16_t
 ```
 
-Провел много экспериментов с билд-ключами, все бузеспешные. После всмотрелся в код `ggml-cpu/arch/riscv/quants.c` и обнаружил, что апстрим ветка жестко требует наличия RVV 1.0 и все переменные в коде имеют префикс `v`. Т.е. разработчики llama.cpp явно жестко прописали в коде поддержку только новых процессоров risc-v.
+Провел много экспериментов с билд-ключами, все бузеспешные. После всмотрелся в код `ggml-cpu/arch/riscv/quants.c` и обнаружил, что апстрим ветка жестко требует наличия RVV 1.0 и все переменные в коде имеют префикс `v`. Т.е. разработчики llama.cpp явно жестко прописали в коде поддержку только новых процессоров risc-v с полной реализацией спецификации [RVV 1.0](https://lists.riscv.org/g/tech-vector-ext/attachment/691/0/riscv-v-spec-1.0.pdf).
 
 В репозитори [GitHub ggml-org / llama.cpp](https://github.com/ggml-org/llama.cpp/blob/master) нашел файл [build-riscv64-spacemit.md](https://github.com/ggml-org/llama.cpp/blob/master/docs/build-riscv64-spacemit.md) и по нему понял, почему в коде `ggml-cpu/arch/riscv/quants.c` так жестко прописали `RVV 1.0`
 

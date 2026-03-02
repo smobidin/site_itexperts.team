@@ -139,3 +139,9 @@ Serving pages from disk
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0) 
 Press Ctrl+C to stop
+
+Change detected, rebuilding site (#1).
+2026-03-02 12:11:16.378 +0300
+Source changed /posts/run_llama.cpp_on_risc-v.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 26 ms
