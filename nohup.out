@@ -117,3 +117,25 @@ Change of config file detected, rebuilding site (#4).
 2026-02-17 18:26:06.725 +0300
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
 Rebuilt in 285 ms
+Watching for changes in /home/stas/www/itexperts.team/archetypes, /home/stas/www/itexperts.team/assets, /home/stas/www/itexperts.team/content/{contact,jokes,posts}, /home/stas/www/itexperts.team/data, /home/stas/www/itexperts.team/i18n, /home/stas/www/itexperts.team/layouts/shortcodes, /home/stas/www/itexperts.team/static/img, /home/stas/www/itexperts.team/themes/mainroad/archetypes, /home/stas/www/itexperts.team/themes/mainroad/assets/css, /home/stas/www/itexperts.team/themes/mainroad/i18n, ... and 3 more
+Watching for config changes in /home/stas/www/itexperts.team/hugo.toml
+Start building sites … 
+hugo v0.155.3+extended linux/amd64 BuildDate=unknown
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │ 58 
+ Paginator pages  │  0 
+ Non-page files   │  0 
+ Static files     │ 26 
+ Processed images │  0 
+ Aliases          │ 21 
+ Cleaned          │  0 
+
+Built in 146 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
