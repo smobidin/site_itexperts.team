@@ -3,16 +3,16 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Запускаем llama.cpp на risc-v VisionFive 2 - IT Experts Team</title>
+	<title>Запускаем llama.cpp на RISC-V VisionFive 2 - IT Experts Team</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 		<meta property="og:url" content="https://itexperts.team:1313/posts/run_llama.cpp_on_risc-v/">
   <meta property="og:site_name" content="IT Experts Team">
-  <meta property="og:title" content="Запускаем llama.cpp на risc-v VisionFive 2">
-  <meta property="og:description" content="Пробуем запускать LLM на RISC-V Целью эксперимента было не столько проверить производительность, сколько понять применимать процессоров risc-v в качестве управляющих в серверах для ИИ.
+  <meta property="og:title" content="Запускаем llama.cpp на RISC-V VisionFive 2">
+  <meta property="og:description" content="Пробуем запускать LLM на RISC-V Целью эксперимента было не столько проверить производительность, сколько понять применимость процессоров RISC-V в качестве управляющих в серверах для ИИ.
 Компания Nvidia использует ARM процессоры Vera в качестве управляющих для GPU Rubin.
-Почему бы не попробовать использовать risc-v?
-В качестве инференес движка выбрал LLaMA C&#43;&#43; - LLM inference in C/C&#43;&#43;
+Почему бы не попробовать использовать RISC-V?
+В качестве инференес-движка выбрал LLaMA C&#43;&#43; - LLM inference in C/C&#43;&#43;
 Критерием успеха для себя выбрал: модель LLM работает и ответила мне хотя бы одним словом.
 На чем пробовал и как собирал Одноплатник StarFive VisionFive 2:">
   <meta property="og:locale" content="ru">
@@ -25,11 +25,11 @@
     <meta property="article:tag" content="HW">
 
 		
-  <meta itemprop="name" content="Запускаем llama.cpp на risc-v VisionFive 2">
-  <meta itemprop="description" content="Пробуем запускать LLM на RISC-V Целью эксперимента было не столько проверить производительность, сколько понять применимать процессоров risc-v в качестве управляющих в серверах для ИИ.
+  <meta itemprop="name" content="Запускаем llama.cpp на RISC-V VisionFive 2">
+  <meta itemprop="description" content="Пробуем запускать LLM на RISC-V Целью эксперимента было не столько проверить производительность, сколько понять применимость процессоров RISC-V в качестве управляющих в серверах для ИИ.
 Компания Nvidia использует ARM процессоры Vera в качестве управляющих для GPU Rubin.
-Почему бы не попробовать использовать risc-v?
-В качестве инференес движка выбрал LLaMA C&#43;&#43; - LLM inference in C/C&#43;&#43;
+Почему бы не попробовать использовать RISC-V?
+В качестве инференес-движка выбрал LLaMA C&#43;&#43; - LLM inference in C/C&#43;&#43;
 Критерием успеха для себя выбрал: модель LLM работает и ответила мне хотя бы одним словом.
 На чем пробовал и как собирал Одноплатник StarFive VisionFive 2:">
   <meta itemprop="datePublished" content="2026-03-01T17:59:55+03:00">
@@ -100,7 +100,7 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Запускаем llama.cpp на risc-v VisionFive 2</h1>
+			<h1 class="post__title">Запускаем llama.cpp на RISC-V VisionFive 2</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0a14 14 0 1 1 0 28 1 1 0 0 1 0-28m0 3a3 3 0 1 0 0 22 3 3 0 0 0 0-22m1 4h-2v8.4l6.8 4.4L22 18l-6-3.8z"/></svg><time class="meta__text" datetime="2026-03-01T17:59:55&#43;03:00">2026-03-01</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/%D0%B8%D1%81%D0%BA%D1%83%D1%81c%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82/" rel="category">Искусcтвенный Интеллект</a>, <a class="meta__link" href="/categories/%D0%B8%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/" rel="category">Инфраструктура</a>
@@ -124,10 +124,10 @@
 	</div>
 </div><div class="content post__content clearfix">
 			<h2 id="пробуем-запускать-llm-на-risc-v">Пробуем запускать LLM на RISC-V</h2>
-<p>Целью эксперимента было не столько проверить производительность, сколько понять применимать процессоров risc-v в качестве управляющих в серверах для ИИ.</p>
+<p>Целью эксперимента было не столько проверить производительность, сколько понять применимость процессоров RISC-V в качестве управляющих в серверах для ИИ.</p>
 <p>Компания Nvidia использует ARM процессоры <a href="https://www.nvidia.com/en-us/data-center/vera-cpu/">Vera</a> в качестве управляющих для GPU <a href="https://www.nvidia.com/en-us/data-center/technologies/rubin/">Rubin</a>.</p>
-<p>Почему бы не попробовать использовать risc-v?</p>
-<p>В качестве инференес движка выбрал <a href="https://github.com/ggml-org/llama.cpp">LLaMA C++ - LLM inference in C/C++</a></p>
+<p>Почему бы не попробовать использовать RISC-V?</p>
+<p>В качестве инференес-движка выбрал <a href="https://github.com/ggml-org/llama.cpp">LLaMA C++ - LLM inference in C/C++</a></p>
 <p>Критерием успеха для себя выбрал: <strong>модель LLM работает и ответила мне хотя бы одним словом</strong>.</p>
 <h2 id="на-чем-пробовал-и-как-собирал">На чем пробовал и как собирал</h2>
 <p>Одноплатник StarFive VisionFive 2:</p>
@@ -152,7 +152,7 @@
 </span></span><span style="display:flex;"><span>`++:.                           `-/+/
 </span></span><span style="display:flex;"><span>.`                                 `/
 </span></span></code></pre></div><h2 id="неудачи">Неудачи</h2>
-<p>Пробовал собирать из мастер ветки, на момент <code>git clone</code>. Собирал с поддержкой CPU и OpenBLAS.</p>
+<p>Пробовал собирать из ветки master, на момент <code>git clone</code>. Собирал с поддержкой CPU и OpenBLAS.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cmake -B build -DGGML_BLAS<span style="color:#f92672">=</span>ON -DGGML_BLAS_VENDOR<span style="color:#f92672">=</span>OpenBLAS -DBUILD_SHARED_LIBS<span style="color:#f92672">=</span>OFF
 </span></span></code></pre></div><p>Компиляция не прошла. Билдер некорректно определил набор инструкций процессора. Процессор на плате <strong>StarFive VisionFive 2</strong> -  <strong>jh7110s</strong>. Его набор инструкций:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cat /proc/cpuinfo | tail | grep <span style="color:#e6db74">&#39;hart isa&#39;</span>
@@ -168,14 +168,14 @@
 </span></span></span><span style="display:flex;"><span>-DGGML_RV_ZVFH<span style="color:#f92672">=</span>OFF  <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span>-DGGML_RV_ZICBOP<span style="color:#f92672">=</span>OFF  <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span>-DGGML_RV_ZIHINTPAUSE<span style="color:#f92672">=</span>OFF
-</span></span></code></pre></div><p>Компиляция падал в ошибку:</p>
+</span></span></code></pre></div><p>Компиляция падала в ошибку:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ggml-cpu/arch/riscv/quants.c:1979:5: error: unknown type name ‘vuint16mf2_t’; did you mean ‘uint16_t’?
 </span></span><span style="display:flex;"><span> <span style="color:#ae81ff">1979</span> |     vuint16mf2_t v_gather_qh <span style="color:#f92672">=</span> __riscv_vle16_v_u16mf2<span style="color:#f92672">(</span>gather_qh_arr, 8<span style="color:#f92672">)</span>;
 </span></span><span style="display:flex;"><span>      |     ^~~~~~~~~~~~
 </span></span><span style="display:flex;"><span>      |     uint16_t
-</span></span></code></pre></div><p>Провел много экспериментов с билд-ключами, все безуспешные. После всмотрелся в код <code>ggml-cpu/arch/riscv/quants.c</code> и обнаружил, что апстрим ветка жестко требует наличия RVV 1.0 и все переменные в коде имеют префикс <code>v</code>. Т.е. разработчики llama.cpp явно жестко прописали в коде поддержку только новых процессоров risc-v с полной реализацией спецификации <a href="https://lists.riscv.org/g/tech-vector-ext/attachment/691/0/riscv-v-spec-1.0.pdf">RVV 1.0</a>.</p>
+</span></span></code></pre></div><p>Провел много экспериментов с билд-ключами, все безуспешные. После этого всмотрелся в код <code>ggml-cpu/arch/riscv/quants.c</code> и обнаружил, что апстрим ветка жестко требует наличия RVV 1.0 и все переменные в коде имеют префикс <code>v</code>. Т.е. разработчики llama.cpp явно жестко прописали в коде поддержку только новых процессоров RISC-V с полной реализацией спецификации <a href="https://lists.riscv.org/g/tech-vector-ext/attachment/691/0/riscv-v-spec-1.0.pdf">RVV 1.0</a>.</p>
 <p>В репозитории <a href="https://github.com/ggml-org/llama.cpp/blob/master">GitHub ggml-org / llama.cpp</a> нашел файл <a href="https://github.com/ggml-org/llama.cpp/blob/master/docs/build-riscv64-spacemit.md">build-riscv64-spacemit.md</a> и по нему понял, почему в коде <code>ggml-cpu/arch/riscv/quants.c</code> так жестко прописали <code>RVV 1.0</code></p>
-<p>Ну что же, похоже, что следующей моей платой для экспериментов станет плата с процессором <strong>SPACEMIT K3</strong>:</p>
+<p>Ну что же, похоже, что следующей моей платой для экспериментов станет плата с процессором <strong>SpacemiT K3</strong>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>model name      : Spacemit<span style="color:#f92672">(</span>R<span style="color:#f92672">)</span> X60
 </span></span><span style="display:flex;"><span>isa             : rv64imafdcv_zicbom_zicboz_zicntr_zicond_zicsr_zifencei_zihintpause_zihpm_zfh_zfhmin_zca_zcd_zba_zbb_zbc_zbs_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvfh_zvfhmin_zvkt_sscofpmf_sstc_svinval_svnapot_svpbmt
 </span></span><span style="display:flex;"><span>mmu             : sv39
@@ -183,13 +183,13 @@
 </span></span><span style="display:flex;"><span>mvendorid       : 0x710
 </span></span><span style="display:flex;"><span>marchid         : 0x8000000058000001
 </span></span></code></pre></div><h2 id="успех">Успех</h2>
-<p>А пока решил откатиться на более ранний коммит и собрать уже не с OpenBLAS, а с <strong>vulkan</strong>.</p>
+<p>А пока решил откатиться на более ранний коммит и собрать уже не с OpenBLAS, а с <strong>Vulkan</strong>.</p>
 <p>Откатил лламу на ветку <a href="https://github.com/ggml-org/llama.cpp/releases/tag/b6900">https://github.com/ggml-org/llama.cpp/releases/tag/b6900</a></p>
 <p>Пробую собрать с ключами <a href="https://github.com/ggml-org/llama.cpp/issues/14926">https://github.com/ggml-org/llama.cpp/issues/14926</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cmake -S . -B build  <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span>-DGGML_RVV<span style="color:#f92672">=</span>OFF   <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span>-DBUILD_SHARED_LIBS<span style="color:#f92672">=</span>OFF  <span style="color:#ae81ff">\
-</span></span></span><span style="display:flex;"><span>-DGGML_VULKAN<span style="color:#f92672">=</span>ON   <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>-DGGML_Vulkan<span style="color:#f92672">=</span>ON   <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span>-DGGML_NO_LLAMAFILE<span style="color:#f92672">=</span>ON  <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span>-DGGML_RV_ZFH<span style="color:#f92672">=</span>OFF  <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span>-DGGML_RV_ZICBOP<span style="color:#f92672">=</span>OFF  <span style="color:#ae81ff">\
@@ -206,11 +206,11 @@
 <p><img src="/img/llama_riscv-2.png" alt="скачивание Qwen3"></p>
 <p>И начался запуск модели:</p>
 <p><img src="/img/llama_riscv-3.png" alt="запуск Qwen3"></p>
-<p>Модель запустилась, первый промт приняла, начала генерировать ответ. Скажу сразу, поскольку все село на vulkan и встроенную GPU, то скорость генерации токенов не то, что низкая, она почти никакая (3-5 токена в <strong>минуту</strong>).</p>
+<p>Модель запустилась, первый промпт приняла, начала генерировать ответ. Скажу сразу, поскольку все село на Vulkan и встроенную GPU, то скорость генерации токенов не то, что низкая, она почти никакая (3-5 токена в <strong>минуту</strong>).</p>
 <h2 id="вердикт">Вердикт</h2>
 <p>Оно работает ;).</p>
 <p>Просто убедился в этом на собственном эксперименте.</p>
-<p>Да, предстоит еще большой путь в развитии risc-v, но даже те процессоры и системы на их базе, которые уже есть в рынке - на мой взгляд уже применимы в качестве платформ для ИИ.</p>
+<p>Да, предстоит еще большой путь в развитии RISC-V, но даже те процессоры и системы на их базе, которые уже есть на рынке - на мой взгляд уже применимы в качестве платформ для ИИ.</p>
 <p>Как в edge inference, так и в построении кластеров с GPU.</p>
 <h2 id="что-из-плат-посмотреть">Что из плат посмотреть</h2>
 <table>
@@ -313,7 +313,7 @@
 	<h4 class="widget__title">Недавние публикации</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/posts/run_llama.cpp_on_risc-v/">Запускаем llama.cpp на risc-v VisionFive 2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/run_llama.cpp_on_risc-v/">Запускаем llama.cpp на RISC-V VisionFive 2</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/2025_dc_for_ai/">Современный ЦОД для ИИ</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/20260126_ta_oy_ai_comments/">Как ИИ меняет проектирование и эксплуатацию дата-центров в России. TA мнения</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/gpu_ai_infra_trends_2030/">GPU Server and AI Infrastructure: тренды архитектуры 2030</a></li>

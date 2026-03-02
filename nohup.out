@@ -151,3 +151,15 @@ Change detected, rebuilding site (#2).
 Source changed /posts/run_llama.cpp_on_risc-v.md
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
 Total in 39 ms
+
+Change detected, rebuilding site (#3).
+2026-03-02 12:25:05.377 +0300
+Source changed /posts/run_llama.cpp_on_risc-v.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 37 ms
+
+Change detected, rebuilding site (#4).
+2026-03-02 12:31:02.877 +0300
+Source changed /posts/run_llama.cpp_on_risc-v.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 67 ms

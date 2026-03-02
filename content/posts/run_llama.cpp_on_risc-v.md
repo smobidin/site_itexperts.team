@@ -1,5 +1,5 @@
 +++
-title = 'Запускаем llama.cpp на risc-v VisionFive 2'
+title = 'Запускаем llama.cpp на RISC-V VisionFive 2'
 date = 2026-03-01T17:59:55+03:00
 draft = false
 tags = ["AI", "RISC-V", "HW"]
@@ -8,13 +8,13 @@ categories =  ["Искусcтвенный Интеллект", "Инфрастр
 
 ## Пробуем запускать LLM на RISC-V
 
-Целью эксперимента было не столько проверить производительность, сколько понять применимать процессоров risc-v в качестве управляющих в серверах для ИИ.
+Целью эксперимента было не столько проверить производительность, сколько понять применимость процессоров RISC-V в качестве управляющих в серверах для ИИ.
 
 Компания Nvidia использует ARM процессоры [Vera](https://www.nvidia.com/en-us/data-center/vera-cpu/) в качестве управляющих для GPU [Rubin](https://www.nvidia.com/en-us/data-center/technologies/rubin/).
 
-Почему бы не попробовать использовать risc-v?
+Почему бы не попробовать использовать RISC-V?
 
-В качестве инференес движка выбрал [LLaMA C++ - LLM inference in C/C++](https://github.com/ggml-org/llama.cpp)
+В качестве инференес-движка выбрал [LLaMA C++ - LLM inference in C/C++](https://github.com/ggml-org/llama.cpp)
 
 Критерием успеха для себя выбрал: **модель LLM работает и ответила мне хотя бы одним словом**.
 
@@ -47,7 +47,7 @@ $ fastfetch
 
 ## Неудачи
 
-Пробовал собирать из мастер ветки, на момент `git clone`. Собирал с поддержкой CPU и OpenBLAS.
+Пробовал собирать из ветки master, на момент `git clone`. Собирал с поддержкой CPU и OpenBLAS.
 
 ```bash
 $ cmake -B build -DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS -DBUILD_SHARED_LIBS=OFF
@@ -79,7 +79,7 @@ $ cmake -B build -DGGML_BLAS=ON  \
 -DGGML_RV_ZIHINTPAUSE=OFF
 ```
 
-Компиляция падал в ошибку:
+Компиляция падала в ошибку:
 
 ```bash
 ggml-cpu/arch/riscv/quants.c:1979:5: error: unknown type name ‘vuint16mf2_t’; did you mean ‘uint16_t’?
@@ -88,11 +88,11 @@ ggml-cpu/arch/riscv/quants.c:1979:5: error: unknown type name ‘vuint16mf2_t’
       |     uint16_t
 ```
 
-Провел много экспериментов с билд-ключами, все безуспешные. После всмотрелся в код `ggml-cpu/arch/riscv/quants.c` и обнаружил, что апстрим ветка жестко требует наличия RVV 1.0 и все переменные в коде имеют префикс `v`. Т.е. разработчики llama.cpp явно жестко прописали в коде поддержку только новых процессоров risc-v с полной реализацией спецификации [RVV 1.0](https://lists.riscv.org/g/tech-vector-ext/attachment/691/0/riscv-v-spec-1.0.pdf).
+Провел много экспериментов с билд-ключами, все безуспешные. После этого всмотрелся в код `ggml-cpu/arch/riscv/quants.c` и обнаружил, что апстрим ветка жестко требует наличия RVV 1.0 и все переменные в коде имеют префикс `v`. Т.е. разработчики llama.cpp явно жестко прописали в коде поддержку только новых процессоров RISC-V с полной реализацией спецификации [RVV 1.0](https://lists.riscv.org/g/tech-vector-ext/attachment/691/0/riscv-v-spec-1.0.pdf).
 
 В репозитории [GitHub ggml-org / llama.cpp](https://github.com/ggml-org/llama.cpp/blob/master) нашел файл [build-riscv64-spacemit.md](https://github.com/ggml-org/llama.cpp/blob/master/docs/build-riscv64-spacemit.md) и по нему понял, почему в коде `ggml-cpu/arch/riscv/quants.c` так жестко прописали `RVV 1.0`
 
-Ну что же, похоже, что следующей моей платой для экспериментов станет плата с процессором **SPACEMIT K3**:
+Ну что же, похоже, что следующей моей платой для экспериментов станет плата с процессором **SpacemiT K3**:
 
 ``` bash
 model name      : Spacemit(R) X60
@@ -105,7 +105,7 @@ marchid         : 0x8000000058000001
 
 ## Успех
 
-А пока решил откатиться на более ранний коммит и собрать уже не с OpenBLAS, а с **vulkan**.
+А пока решил откатиться на более ранний коммит и собрать уже не с OpenBLAS, а с **Vulkan**.
 
 Откатил лламу на ветку https://github.com/ggml-org/llama.cpp/releases/tag/b6900
 
@@ -115,7 +115,7 @@ marchid         : 0x8000000058000001
 cmake -S . -B build  \
 -DGGML_RVV=OFF   \
 -DBUILD_SHARED_LIBS=OFF  \
--DGGML_VULKAN=ON   \
+-DGGML_Vulkan=ON   \
 -DGGML_NO_LLAMAFILE=ON  \
 -DGGML_RV_ZFH=OFF  \
 -DGGML_RV_ZICBOP=OFF  \
@@ -148,7 +148,7 @@ cmake --build build --config Release -j 4
 
 ![запуск Qwen3](/img/llama_riscv-3.png)
 
-Модель запустилась, первый промт приняла, начала генерировать ответ. Скажу сразу, поскольку все село на vulkan и встроенную GPU, то скорость генерации токенов не то, что низкая, она почти никакая (3-5 токена в **минуту**). 
+Модель запустилась, первый промпт приняла, начала генерировать ответ. Скажу сразу, поскольку все село на Vulkan и встроенную GPU, то скорость генерации токенов не то, что низкая, она почти никакая (3-5 токена в **минуту**). 
 
 ## Вердикт
 
@@ -156,7 +156,7 @@ cmake --build build --config Release -j 4
 
 Просто убедился в этом на собственном эксперименте.
 
-Да, предстоит еще большой путь в развитии risc-v, но даже те процессоры и системы на их базе, которые уже есть в рынке - на мой взгляд уже применимы в качестве платформ для ИИ.
+Да, предстоит еще большой путь в развитии RISC-V, но даже те процессоры и системы на их базе, которые уже есть на рынке - на мой взгляд уже применимы в качестве платформ для ИИ.
 
 Как в edge inference, так и в построении кластеров с GPU.
 
