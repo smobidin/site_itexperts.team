@@ -8,6 +8,8 @@ categories =  ["Искусcтвенный Интеллект", "Инфрастр
 
 ## Пробуем запускать LLM на RISC-V
 
+![banner](/img/llama_riscv_ai_banner.png)
+
 Целью эксперимента было не столько проверить производительность, сколько понять применимость процессоров RISC-V в качестве управляющих в серверах для ИИ.
 
 Компания Nvidia использует ARM процессоры [Vera](https://www.nvidia.com/en-us/data-center/vera-cpu/) в качестве управляющих для GPU [Rubin](https://www.nvidia.com/en-us/data-center/technologies/rubin/).

@@ -163,3 +163,17 @@ Change detected, rebuilding site (#4).
 Source changed /posts/run_llama.cpp_on_risc-v.md
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
 Total in 67 ms
+
+Change of Static files detected, rebuilding site (#5).
+2026-03-02 17:00:31.877 +0300
+Syncing /img/image.png to /
+
+Change of Static files detected, rebuilding site (#6).
+2026-03-02 17:00:57.877 +0300
+Syncing /img/llama_riscv_ai_banner.png to /
+
+Change detected, rebuilding site (#7).
+2026-03-02 17:01:41.378 +0300
+Source changed /posts/run_llama.cpp_on_risc-v.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 62 ms
