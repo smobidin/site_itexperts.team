@@ -469,3 +469,9 @@ Change detected, rebuilding site (#61).
 Source changed /_index.md
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
 Total in 88 ms
+
+Change detected, rebuilding site (#62).
+2026-03-04 17:44:35.377 +0300
+Template changed /robots.txt
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 19 ms
