@@ -463,3 +463,9 @@ Change detected, rebuilding site (#60).
 Source changed /posts/wsl_prototype.md
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
 Total in 92 ms
+
+Change detected, rebuilding site (#61).
+2026-03-04 17:00:22.877 +0300
+Source changed /_index.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 88 ms
