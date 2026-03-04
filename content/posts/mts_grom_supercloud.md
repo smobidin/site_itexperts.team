@@ -1,5 +1,6 @@
 +++
 title = "Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform"
+description = 'Строим сервисы для разработчиков ИИ: как в МТС GPU SuperCloud эволюционировал до автоматизированной MLOps Platform'
 date = 2021-12-15T11:18:35+03:00
 draft = false
 tags = ["AI", "HPC", "Cloud", "MLOps"]

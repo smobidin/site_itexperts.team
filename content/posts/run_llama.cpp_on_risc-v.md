@@ -1,5 +1,6 @@
 +++
 title = 'Запускаем llama.cpp на RISC-V VisionFive 2'
+description = 'Пошаговый разбор запуска llama.cpp на плате RISC-V VisionFive 2: подготовка окружения, сборка, типичные ошибки, итоговая производительность и выводы по применимости RISC-V для LLM.'
 date = 2026-03-01T17:59:55+03:00
 draft = false
 tags = ["AI", "RISC-V", "HW"]

@@ -379,3 +379,87 @@ Syncing /favicon.ico to /
 Change of Static files detected, rebuilding site (#46).
 2026-03-04 16:13:43.378 +0300
 Syncing /favicon.ico to /
+
+Change detected, rebuilding site (#47).
+2026-03-04 16:39:07.877 +0300
+Source changed /posts/2025_dc_for_ai.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 102 ms
+
+Change detected, rebuilding site (#48).
+2026-03-04 16:40:25.377 +0300
+Source changed /posts/20260126_ta_oy_ai_comments.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 79 ms
+
+Change detected, rebuilding site (#49).
+2026-03-04 16:41:31.378 +0300
+Source changed /posts/ai_gravitel.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 43 ms
+
+Change detected, rebuilding site (#50).
+2026-03-04 16:43:30.878 +0300
+Source changed /posts/cross_cpu_links_intel_and_amd.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 4 ms
+
+Change detected, rebuilding site (#51).
+2026-03-04 16:45:28.377 +0300
+Source changed /posts/gpu_ai_infra_trends_2030.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 76 ms
+
+Change detected, rebuilding site (#52).
+2026-03-04 16:46:11.377 +0300
+Source changed /posts/mts_grom_supercloud.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 49 ms
+
+Change detected, rebuilding site (#53).
+2026-03-04 16:47:44.378 +0300
+Source changed /posts/mts_mlops.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 55 ms
+
+Change detected, rebuilding site (#54).
+2026-03-04 16:48:02.876 +0300
+Source changed /posts/mts_mlops.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 55 ms
+
+Change detected, rebuilding site (#55).
+2026-03-04 16:48:10.377 +0300
+Source changed /posts/mts_mlops.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 40 ms
+
+Change detected, rebuilding site (#56).
+2026-03-04 16:50:13.877 +0300
+Source changed /posts/run_llama.cpp_on_risc-v.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 110 ms
+
+Change detected, rebuilding site (#57).
+2026-03-04 16:50:31.377 +0300
+Source changed /posts/run_llama.cpp_on_risc-v.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 86 ms
+
+Change detected, rebuilding site (#58).
+2026-03-04 16:50:32.377 +0300
+Source changed /posts/run_llama.cpp_on_risc-v.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 113 ms
+
+Change detected, rebuilding site (#59).
+2026-03-04 16:51:55.377 +0300
+Source changed /posts/vscode_github_prototype.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 47 ms
+
+Change detected, rebuilding site (#60).
+2026-03-04 16:53:26.378 +0300
+Source changed /posts/wsl_prototype.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 92 ms
