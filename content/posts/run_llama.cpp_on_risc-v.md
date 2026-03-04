@@ -3,7 +3,7 @@ title = 'Запускаем llama.cpp на RISC-V VisionFive 2'
 date = 2026-03-01T17:59:55+03:00
 draft = false
 tags = ["AI", "RISC-V", "HW"]
-categories =  ["Искусcтвенный Интеллект", "Инфраструктура"]
+categories =  ["Искусственный Интеллект", "Инфраструктура"]
 +++
 
 ## Пробуем запускать LLM на RISC-V

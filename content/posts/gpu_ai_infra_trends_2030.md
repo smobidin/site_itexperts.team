@@ -3,7 +3,7 @@ title = "GPU Server and AI Infrastructure: тренды архитектуры 2
 date = 2025-06-30
 draft = false
 tags = ["AI", "HW"]
-categories =  ["Искусcтвенный Интеллект"]
+categories =  ["Искусственный Интеллект"]
 +++
 
 ![2030](/img/GPU_AI_2030.jpeg)

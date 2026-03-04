@@ -27,5 +27,4 @@ Welcome.
 
 [git](https://itexperts.team/ru/taxonomy/term/19)
 
-
 Станислав Обидин, itexperts.team

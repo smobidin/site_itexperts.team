@@ -3,7 +3,7 @@ title = "Windows Subsystem for Linux (WSL) как инструмент для п
 date = 2024-01-10T14:07:35+03:00
 draft = false
 tags = ["WSL", "AI"]
-categories =  ["Разработка", "Искусcтвенный Интеллект"]
+categories =  ["Разработка", "Искусственный Интеллект"]
 +++
 
 ![Prototype](/img/fb_n11.jpg)
