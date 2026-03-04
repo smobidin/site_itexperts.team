@@ -325,3 +325,57 @@ Change detected, rebuilding site (#32).
 Template changed /robots.txt
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
 Total in 17 ms
+
+Change of Static files detected, rebuilding site (#33).
+2026-03-04 15:51:18.378 +0300
+Syncing /logo_team.svg to /
+
+Change of Static files detected, rebuilding site (#34).
+2026-03-04 15:51:35.377 +0300
+Syncing /favicon.svg to /
+
+Change of Static files detected, rebuilding site (#35).
+2026-03-04 16:03:34.378 +0300
+
+Change of Static files detected, rebuilding site (#36).
+2026-03-04 16:03:40.878 +0300
+Syncing /logo_team.svg to /
+
+Change of Static files detected, rebuilding site (#37).
+2026-03-04 16:03:50.378 +0300
+Syncing /favicon.svg to /
+
+Change of Static files detected, rebuilding site (#38).
+2026-03-04 16:07:44.877 +0300
+Syncing /logo_team.svg to /
+
+Change of Static files detected, rebuilding site (#39).
+2026-03-04 16:07:51.378 +0300
+
+Change of Static files detected, rebuilding site (#40).
+2026-03-04 16:08:01.378 +0300
+Syncing /favicon.svg to /
+
+Change of Static files detected, rebuilding site (#41).
+2026-03-04 16:09:46.377 +0300
+Syncing /logo_team.ico to /
+
+Change of Static files detected, rebuilding site (#42).
+2026-03-04 16:09:52.378 +0300
+Syncing /favicon.ico to /
+
+Change of Static files detected, rebuilding site (#43).
+2026-03-04 16:10:02.877 +0300
+Syncing /favicon.ico to /
+
+Change of Static files detected, rebuilding site (#44).
+2026-03-04 16:13:17.878 +0300
+Syncing /logo_team.ico to /
+
+Change of Static files detected, rebuilding site (#45).
+2026-03-04 16:13:34.877 +0300
+Syncing /favicon.ico to /
+
+Change of Static files detected, rebuilding site (#46).
+2026-03-04 16:13:43.378 +0300
+Syncing /favicon.ico to /
