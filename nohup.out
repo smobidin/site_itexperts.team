@@ -297,3 +297,9 @@ Change detected, rebuilding site (#27).
 Source changed /posts/wsl_prototype.md
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
 Total in 68 ms
+
+Change detected, rebuilding site (#28).
+2026-03-04 15:29:38.878 +0300
+Source changed /posts/cross_cpu_links_intel_and_amd.md
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 24 ms
