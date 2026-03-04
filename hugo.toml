@@ -2,6 +2,7 @@ baseURL = 'https://itexperts.team/'
 languageCode = 'ru'
 title = 'IT Experts Team'
 theme = 'mainroad'
+enableRobotsTXT = true
 
 [services.disqus]
     shortname = "Stas"
@@ -24,7 +25,7 @@ theme = 'mainroad'
     post_meta = ["author", "date", "categories"]
     mainSections = ["posts", "about", "contact"]
     dateformat = "2006-01-02"
-
+    
 [Params.Author] # Used in authorbox
   name = "Станислав Обидин"
   bio = ""

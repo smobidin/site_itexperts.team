@@ -303,3 +303,25 @@ Change detected, rebuilding site (#28).
 Source changed /posts/cross_cpu_links_intel_and_amd.md
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
 Total in 24 ms
+
+Change of config file detected, rebuilding site (#29).
+2026-03-04 15:40:38.377 +0300
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Rebuilt in 357 ms
+
+Change of config file detected, rebuilding site (#30).
+2026-03-04 15:42:14.377 +0300
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Rebuilt in 289 ms
+
+Change detected, rebuilding site (#31).
+2026-03-04 15:45:46.877 +0300
+Template changed /robots.txt
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 14 ms
+
+Change detected, rebuilding site (#32).
+2026-03-04 15:47:02.877 +0300
+Template changed /robots.txt
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Total in 17 ms
