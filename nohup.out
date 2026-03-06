@@ -475,3 +475,8 @@ Change detected, rebuilding site (#62).
 Template changed /robots.txt
 Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
 Total in 19 ms
+
+Change of config file detected, rebuilding site (#63).
+2026-03-06 16:35:42.877 +0300
+Web Server is available at https://itexperts.team:1313/ (bind address 0.0.0.0)
+Rebuilt in 339 ms

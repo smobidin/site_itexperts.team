@@ -4,8 +4,8 @@ title = 'IT Experts Team'
 theme = 'mainroad'
 enableRobotsTXT = true
 
-[services.disqus]
-    shortname = "Stas"
+#[services.disqus]
+#    shortname = "Stas"
 
 #[module.imports]
 #    path = "github.com/imfing/hextra"
