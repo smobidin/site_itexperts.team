@@ -25,7 +25,7 @@ categories =  ["Искусственный Интеллект", "Инфраст�
 
 Одноплатник StarFive VisionFive 2:
 
-```bash
+```console
 $ fastfetch
                   -`                     👨🏼‍💻: stas@vf2
                  .o+`                    --------
