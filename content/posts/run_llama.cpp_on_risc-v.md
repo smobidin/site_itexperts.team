@@ -96,7 +96,7 @@ ggml-cpu/arch/riscv/quants.c:1979:5: error: unknown type name ‘vuint16mf2_t’
 
 В репозитории [GitHub ggml-org / llama.cpp](https://github.com/ggml-org/llama.cpp/blob/master) нашел файл [build-riscv64-spacemit.md](https://github.com/ggml-org/llama.cpp/blob/master/docs/build-riscv64-spacemit.md) и по нему понял, почему в коде `ggml-cpu/arch/riscv/quants.c` так жестко прописали `RVV 1.0`
 
-Ну что же, похоже, что следующей моей платой для экспериментов станет плата с процессором **SpacemiT K3**:
+Ну что же, похоже, что следующей моей платой для экспериментов станет плата с процессором **[SpacemiT K3](https://www.spacemit.com/community/document/info?nodepath=hardware/key_stone/k3/k3_docs/root_overview.md&lang=en)**:
 
 ``` bash
 model name      : Spacemit(R) X100
