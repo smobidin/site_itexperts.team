@@ -35,7 +35,7 @@ $ fastfetch
               -+oooooo+:                 ⏰ Uptime: 6 hours, 20 mins
             `/:-:++oooo+:                📦 Packages: 780 (pacman)
            `/++++/+++++++:               🐚 Shell: zsh 5.9
-          `/++++++++++++++:              Display (ARZOPA): 1920x1080 in 16", 60 Hz [External]
+          `/++++++++++++++:              📺 Display (ARZOPA): 1920x1080 in 16", 60 Hz [External]
          `/+++ooooooooooooo/`            >_ Terminal: /dev/pts/0
         ./ooosssso++osssssso+`           🧠 CPU: jh7110 (4) @ 1.50 GHz - 41.2°C
        .oossssso-````/ossssss+`          🎮 GPU: img-gpu [Integrated]
