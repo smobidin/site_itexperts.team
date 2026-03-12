@@ -27,25 +27,26 @@ categories =  ["Искусственный Интеллект", "Инфраст�
 
 ``` console
 $ fastfetch
-                  -`                     stas@vf2a
-                 .o+`                    ---------
-                `ooo/                    OS: Arch Linux riscv64
-               `+oooo:                   Host: StarFive VisionFive 2 CM
-              `+oooooo:                  Kernel: Linux 6.12.18-cwt-6.0.0-2
-              -+oooooo+:                 Uptime: 21 mins
-            `/:-:++oooo+:                Packages: 554 (pacman)
-           `/++++/+++++++:               Shell: zsh 5.9
-          `/++++++++++++++:              Terminal: /dev/pts/0
-         `/+++ooooooooooooo/`            CPU: jh7110s (4) @ 1.50 GHz
-        ./ooosssso++osssssso+`           GPU: img-gpu [Integrated]
-       .oossssso-````/ossssss+`          Memory: 370.64 MiB / 7.71 GiB (5%)
-      -osssssso.      :ssssssso.         Swap: 0 B / 3.85 GiB (0%)
-     :osssssss/        osssso+++.        Disk (/): 13.47 GiB / 58.13 GiB (23%) - btrfs
-    /ossssssss/        +ssssooo/-        Local IP (wlp1s0u1u3): 10.1.1.110/24
-  `/ossssso+/:-        -:/+osssso+-      Locale: en_US.UTF-8
- `+sso+:-`                 `.-/+oso:
-`++:.                           `-/+/
+                  -`                     👨🏼‍💻: stas@vf2
+                 .o+`                    --------
+                `ooo/                    ⚙️ OS: Arch Linux riscv64
+               `+oooo:                   💻 Host: StarFive VisionFive 2 v1.3B
+              `+oooooo:                  🐧 Kernel: Linux 6.12.18-cwt-6.0.0-2
+              -+oooooo+:                 ⏰ Uptime: 6 hours, 20 mins
+            `/:-:++oooo+:                📦 Packages: 780 (pacman)
+           `/++++/+++++++:               🐚 Shell: zsh 5.9
+          `/++++++++++++++:              Display (ARZOPA): 1920x1080 in 16", 60 Hz [External]
+         `/+++ooooooooooooo/`            >_ Terminal: /dev/pts/0
+        ./ooosssso++osssssso+`           🧠 CPU: jh7110 (4) @ 1.50 GHz - 41.2°C
+       .oossssso-````/ossssss+`          🎮 GPU: img-gpu [Integrated]
+      -osssssso.      :ssssssso.         🔄 RAM: 674.66 MiB / 7.71 GiB (9%)
+     :osssssss/        osssso+++.        🔁 Swap Memory: 3.24 MiB / 3.85 GiB (0%)
+    /ossssssss/        +ssssooo/-        💾 Disk: 7.42 GiB / 119.27 GiB (6%) - btrfs
+  `/ossssso+/:-        -:/+osssso+-      🌐 Net: 10.1.1.249/24 *
+ `+sso+:-`                 `.-/+oso:     🌐 Net: 10.1.1.110/24
+`++:.                           `-/+/    🔠 Locale: ru_RU.UTF-8
 .`                                 `/
+                                         ● ● ● ● ● ● ● ●
 ```
 
 ## Неудачи
