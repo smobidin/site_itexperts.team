@@ -25,28 +25,28 @@ categories =  ["Искусственный Интеллект", "Инфраст�
 
 Одноплатник StarFive VisionFive 2:
 
-``` console
+```bash
 $ fastfetch
                   -`                     👨🏼‍💻: stas@vf2
                  .o+`                    --------
                 `ooo/                    ⚙️ OS: Arch Linux riscv64
                `+oooo:                   💻 Host: StarFive VisionFive 2 v1.3B
               `+oooooo:                  🐧 Kernel: Linux 6.12.18-cwt-6.0.0-2
-              -+oooooo+:                 ⏰ Uptime: 6 hours, 20 mins
-            `/:-:++oooo+:                📦 Packages: 780 (pacman)
+              -+oooooo+:                 ⏰ Uptime: 9 hours, 30 mins
+            `/:-:++oooo+:                📦 Packages: 781 (pacman)
            `/++++/+++++++:               🐚 Shell: zsh 5.9
-          `/++++++++++++++:              📺 Display (ARZOPA): 1920x1080 in 16", 60 Hz [External]
-         `/+++ooooooooooooo/`            >_ Terminal: /dev/pts/0
-        ./ooosssso++osssssso+`           🧠 CPU: jh7110 (4) @ 1.50 GHz - 41.2°C
+          `/++++++++++++++:              📺 Display: 1920x1080 in 16", 60 Hz [External]
+         `/+++ooooooooooooo/`            📟 Terminal: /dev/pts/0
+        ./ooosssso++osssssso+`           🧠 CPU: jh7110 (4) @ 1.50 GHz - 41.4°C
        .oossssso-````/ossssss+`          🎮 GPU: img-gpu [Integrated]
-      -osssssso.      :ssssssso.         🔄 RAM: 674.66 MiB / 7.71 GiB (9%)
+      -osssssso.      :ssssssso.         🔄 RAM: 670.43 MiB / 7.71 GiB (8%)
      :osssssss/        osssso+++.        🔁 Swap Memory: 3.24 MiB / 3.85 GiB (0%)
-    /ossssssss/        +ssssooo/-        💾 Disk: 7.42 GiB / 119.27 GiB (6%) - btrfs
+    /ossssssss/        +ssssooo/-        💾 Disk: 7.44 GiB / 119.27 GiB (6%) - btrfs
   `/ossssso+/:-        -:/+osssso+-      🌐 Net: 10.1.1.249/24 *
  `+sso+:-`                 `.-/+oso:     🌐 Net: 10.1.1.110/24
-`++:.                           `-/+/    🔠 Locale: ru_RU.UTF-8
+`++:.                           `-/+/    😜 Locale: ru_RU.UTF-8
 .`                                 `/
-                                         ● ● ● ● ● ● ● ●
+                                         ⚫ ⚪ 🟢 🟣 🔵 🟡 🟢 🔴
 ```
 
 ## Неудачи
@@ -59,20 +59,20 @@ cmake -B build -DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS -DBUILD_SHARED_LIBS=OF
 
 Компиляция не прошла. Билдер некорректно определил набор инструкций процессора. Процессор на плате **StarFive VisionFive 2** -  **jh7110s**. Его набор инструкций:
 
-``` bash
+```bash
 $ cat /proc/cpuinfo | tail | grep 'hart isa'
 hart isa    : rv64imafdc_zicntr_zicsr_zifencei_zihpm_zca_zcd_zba_zbb
 ```
 
 Билдер же прописывал следующий набор инструкций:
 
-``` bash
+```bash
 Adding CPU backend variant ggml-cpu: -march=rv64gc_zfh_v_zvfh_zicbop_zihintpause;-mabi=lp64d
 ```
 
 Пробовал отключить поддержку RVV, однако компиляция так и шла с ошибками:
 
-``` bash
+```bash
 $ cmake -B build -DGGML_BLAS=ON  \
 -DGGML_BLAS_VENDOR=OpenBLAS  \
 -DBUILD_SHARED_LIBS=OFF  \
@@ -98,7 +98,7 @@ ggml-cpu/arch/riscv/quants.c:1979:5: error: unknown type name ‘vuint16mf2_t’
 
 Ну что же, похоже, что следующей моей платой для экспериментов станет плата с процессором **[SpacemiT K3](https://www.spacemit.com/community/document/info?nodepath=hardware/key_stone/k3/k3_docs/root_overview.md&lang=en)**:
 
-``` bash
+```bash
 model name      : Spacemit(R) X100
 isa             : rv64imafdcv_zicbom_zicboz_zicntr_zicond_zicsr_zifencei_zihintntl_zihintpause_zihpm_zimop_zawrs_zfa_zfh_zfhmin_zca_zcb_zcd_zcmop_zba_zbb_zbc_zbs_zkt_zvbb_zvbc_zve32f_zve32x_zve64d_zve64f_zve64x_zvfh_zvfhmin_zvkb_zvkg_zvkned_zvknha_zvknhb_zvksed_zvksh_zvkt_sdtrig_smaia_smstateen_ssaia_sscofpmf_sstc_svinval_svnapot_svpbmt
 mmu             : sv39
@@ -116,7 +116,7 @@ hart isa        : rv64imafdcvh_zicbom_zicboz_zicntr_zicond_zicsr_zifencei_zihint
 
 Пробую собрать с ключами <https://github.com/ggml-org/llama.cpp/issues/14926>
 
-``` bash
+```bash
 cmake -S . -B build  \
 -DGGML_RVV=OFF   \
 -DBUILD_SHARED_LIBS=OFF  \
@@ -131,7 +131,7 @@ cmake -S . -B build  \
 
 Собираю с ключами:
 
-``` bash
+```bash
 cmake --build build --config Release -j 4
 ```
 
@@ -141,7 +141,7 @@ cmake --build build --config Release -j 4
 
 Собралось без ошибок. Пробую скачать и запустить модель:
 
-``` bash
+```bash
 ./llama-server -hf Qwen/Qwen3-0.6B-GGUF:Q8_0 --host 0.0.0.0 --port 8080
 ```
 
