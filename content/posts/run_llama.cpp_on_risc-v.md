@@ -99,12 +99,13 @@ ggml-cpu/arch/riscv/quants.c:1979:5: error: unknown type name ‘vuint16mf2_t’
 Ну что же, похоже, что следующей моей платой для экспериментов станет плата с процессором **SpacemiT K3**:
 
 ``` bash
-model name      : Spacemit(R) X60
-isa             : rv64imafdcv_zicbom_zicboz_zicntr_zicond_zicsr_zifencei_zihintpause_zihpm_zfh_zfhmin_zca_zcd_zba_zbb_zbc_zbs_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvfh_zvfhmin_zvkt_sscofpmf_sstc_svinval_svnapot_svpbmt
+model name      : Spacemit(R) X100
+isa             : rv64imafdcv_zicbom_zicboz_zicntr_zicond_zicsr_zifencei_zihintntl_zihintpause_zihpm_zimop_zawrs_zfa_zfh_zfhmin_zca_zcb_zcd_zcmop_zba_zbb_zbc_zbs_zkt_zvbb_zvbc_zve32f_zve32x_zve64d_zve64f_zve64x_zvfh_zvfhmin_zvkb_zvkg_zvkned_zvknha_zvknhb_zvksed_zvksh_zvkt_sdtrig_smaia_smstateen_ssaia_sscofpmf_sstc_svinval_svnapot_svpbmt
 mmu             : sv39
-uarch           : spacemit,x60
 mvendorid       : 0x710
-marchid         : 0x8000000058000001
+marchid         : 0x8000000058000002
+mimpid          : 0x33d8a600
+hart isa        : rv64imafdcvh_zicbom_zicboz_zicntr_zicond_zicsr_zifencei_zihintntl_zihintpause_zihpm_zimop_zawrs_zfa_zfh_zfhmin_zca_zcb_zcd_zcmop_zba_zbb_zbc_zbs_zkt_zvbb_zvbc_zve32f_zve32x_zve64d_zve64f_zve64x_zvfh_zvfhmin_zvkb_zvkg_zvkned_zvknha_zvknhb_zvksed_zvksh_zvkt_sdtrig_smaia_smstateen_ssaia_sscofpmf_sstc_svinval_svnapot_svpbmt
 ```
 
 ## Успех
