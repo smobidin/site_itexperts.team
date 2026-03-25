@@ -31,7 +31,7 @@ enableRobotsTXT = true
     post_meta = ["author", "date", "categories"]
     mainSections = ["posts", "about", "contact"]
     dateformat = "2006-01-02"
-    math = false
+    math = true
     
 [Params.Author] # Used in authorbox
   name = "Станислав Обидин"
