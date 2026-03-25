@@ -12,6 +12,12 @@ enableRobotsTXT = true
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
     [markup.goldmark.renderer]
       unsafe = true
 
@@ -25,6 +31,7 @@ enableRobotsTXT = true
     post_meta = ["author", "date", "categories"]
     mainSections = ["posts", "about", "contact"]
     dateformat = "2006-01-02"
+    math = false
     
 [Params.Author] # Used in authorbox
   name = "Станислав Обидин"
