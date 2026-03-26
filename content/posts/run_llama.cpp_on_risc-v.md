@@ -7,7 +7,7 @@ tags = ["AI", "RISC-V", "HW"]
 categories =  ["Искусственный Интеллект", "Инфраструктура"]
 +++
 
-## Пробуем запускать LLM на RISC-V
+**Пробуем запускать LLM на RISC-V**
 
 ![banner](/img/llama_riscv_ai_banner.png)
 
