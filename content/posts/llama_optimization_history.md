@@ -7,9 +7,9 @@ tags = ["AI", "HW"]
 categories =  ["Искусственный Интеллект", "Инфраструктура", "Исследование"]
 +++
 
-**Железо:** Intel Core Ultra 7 155H (6P+8E+2LP, 22 потока), Intel Arc Graphics MTL (iGPU, unified memory), 64 GB RAM (доступно ~60 GB), Ubuntu 26.04 LTS.
-**Репозиторий:** `~/ai/llama.cpp`, текущий коммит `e107984bc` (build 10788)
-**Модель-эталон:** Qwen3-Coder-30B-A3B-Instruct Q4_K_M (MoE, 30.5B параметров / 3B активных, 17.28 GiB)
+- **Железо:** Intel Core Ultra 7 155H (6P+8E+2LP, 22 потока), Intel Arc Graphics MTL (iGPU, unified memory), 64 GB RAM (доступно ~60 GB), Ubuntu 26.04 LTS.
+- **Репозиторий:** `~/ai/llama.cpp`, текущий коммит `e107984bc` (build 10788)
+- **Модель-эталон:** Qwen3-Coder-30B-A3B-Instruct Q4_K_M (MoE, 30.5B параметров / 3B активных, 17.28 GiB)
 
 ---
 
