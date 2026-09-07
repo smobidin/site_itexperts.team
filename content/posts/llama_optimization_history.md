@@ -8,8 +8,6 @@ tags = ["AI", "HW"]
 categories =  ["Искусственный Интеллект", "Инфраструктура", "Исследование"]
 +++
 
-# История оптимизации llama.cpp на Intel Core Ultra 7 155H (Meteor Lake)
-
 **Железо:** Intel Core Ultra 7 155H (6P+8E+2LP, 22 потока), Intel Arc Graphics MTL (iGPU, unified memory), 64 GB RAM (доступно ~60 GB), Ubuntu 26.04 LTS.
 **Репозиторий:** `~/ai/llama.cpp`, текущий коммит `e107984bc` (build 10788)
 **Модель-эталон:** Qwen3-Coder-30B-A3B-Instruct Q4_K_M (MoE, 30.5B параметров / 3B активных, 17.28 GiB)
@@ -86,11 +84,11 @@ cmake --build build --config Release -j$(nproc)
 
 **Август (build 9722, GCC, Vulkan-only).** Бенчмарки Qwen3.8-27B (dense, Q4_K_M, 15.92 GiB) — файлы `~/tmp/bench_results*.txt`. Установлено: CPU-only даёт ~24 t/s prefill / 2.3 t/s decode; полный offload на iGPU (`-ngl 99`) — ~35 t/s prefill / ~2.5 t/s decode. KV-квантование (f16 → q8_0 → q4_0), flash attention, `--no-mmap` — в пределах погрешности, ±0.5 t/s. Вывод того периода: dense 27B на этом железе упирается в decode ~2.5 t/s, комфортного интерактива нет.
 
-**04.09.2026.** Скачана Qwen3-Coder-30B-A3B (MoE, 3B активных) — ставка на то, что decode MoE считается по активным экспертам, а не по всем 30B. Пересборка под icpx + SYCL (build 10788).
+**04.09.2026.** Скачал Qwen3-Coder-30B-A3B (MoE, 3B активных) — ставка на то, что decode MoE считается по активным экспертам, а не по всем 30B. Пересборка под icpx + SYCL (build 10788).
 
-**Ночь 05.09.** Первый бенч новой модели (`/tmp/bench_coder.log`): pp512 ≈ 130 t/s, tg128 ≈ 15.7 t/s. Но в логе — `ggml_sycl_init: no SYCL device available`: SYCL тихо упал, считал Vulkan. Загадка зафиксирована.
+**05.09.2026** Первый бенч новой модели: pp512 ≈ 130 t/s, tg128 ≈ 15.7 t/s. Но в логе — `ggml_sycl_init: no SYCL device available`: SYCL тихо упал, считал Vulkan. Загадка зафиксирована.
 
-**05.09.2026 (день).** Расследование SYCL-падения — см. §2.3. Затем — серия сравнительных бенчей Vulkan vs SYCL на новой модели.
+**05.09.2026** Расследование SYCL-падения — см. §2.3. Затем — серия сравнительных бенчей Vulkan vs SYCL на новой модели.
 
 ### 2.2. Итоговые цифры (Qwen3-Coder-30B-A3B Q4_K_M, ngl 99, fa, 5 повторов)
 
@@ -117,7 +115,7 @@ cmake --build build --config Release -j$(nproc)
 
 - отсутствует в зависимостях `ldd` (dlopen не виден статическому анализатору);
 - не зарегистрирована в `ldconfig`;
-- грузится только если umф-путь есть в `LD_LIBRARY_PATH` — что и делает `setvars.sh`.
+- грузится только если umf-путь есть в `LD_LIBRARY_PATH` — что и делает `setvars.sh`.
 
 Без неё SYCL-инициализация падает с вводящим в заблуждение сообщением «нет устройства», хотя устройство есть. Отсюда флаки: запуск из shell с setvars — работает; из чистого окружения (cron, systemd, ночной бенч) — тихо падает и откатывается на Vulkan.
 
@@ -195,7 +193,7 @@ exec llama-cli \
 
 ### 3.3. Сервер — `~/ai/run_coder_server.sh`
 
-Та же схема плюс серверное:
+Та же схема плюс запуск сервера:
 
 - `--jinja` — нативный chat template, **tool calling работает** (проверено: `finish_reason: tool_calls`, корректные JSON-аргументы);
 - `--alias qwen3-coder-30b` — стабильный model id для клиентов;
