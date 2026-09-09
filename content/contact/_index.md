@@ -4,7 +4,7 @@ date = 2026-02-13T16:56:01+03:00
 [menus] 
     [menus.main]
         name="Контакты"
-        weight = 5
+        weight = 6
 +++
 
 Станислав Обидин, itexperts.team

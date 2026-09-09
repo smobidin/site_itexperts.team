@@ -5,5 +5,5 @@ draft = false
 [menus] 
     [menus.main]
         name="Мой GitHub"
-        weight = 4
+        weight = 5
 +++
